@@ -1,7 +1,7 @@
 {
-  "name": "fr/bravo-content-elements",
+  "name": "cpsit/bravo-content-elements",
   "description": "Basic content elements for TYPO3 projects.",
-  "homepage": "https://gitlab.321.works/zug/bravo-content-elements/bravo-content-elements",
+  "homepage": "https://github.com/CPS-IT/bravo-content-elements",
   "license": "GPL-2.0-or-later",
   "type": "typo3-cms-extension",
   "require": {
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Fr\\BravoContentElements\\": "Classes"
+      "CPSIT\\BravoContentElements\\": "Classes"
     }
   }
 }
