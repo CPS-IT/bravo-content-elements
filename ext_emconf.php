@@ -1,6 +1,6 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Bravo Content Elements',
+    'title' => 'Bravo n Content Elements',
     'description' => 'Basick Content Elements for TYPO3 projects',
     'category' => '',
     'state' => 'alpha',
