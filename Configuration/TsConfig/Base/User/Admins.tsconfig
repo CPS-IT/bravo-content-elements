@@ -1,0 +1,10 @@
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/User/General.tsconfig'
+
+[applicationContext != "Production"]
+  options {
+    clearCache {
+      pages = 1
+      all = 1
+    }
+  }
+[end]

@@ -1,0 +1,11 @@
+# TsConfig for internal pages
+# Include this file in to the root page of internal pages
+# which should not be indexed
+
+TCAdefaults {
+  pages {
+    no_search = 1
+    no_index = 1
+    no_follow = 1
+  }
+}

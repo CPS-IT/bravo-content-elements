@@ -1,0 +1,8 @@
+#############
+#### RTE ####
+#############
+RTE {
+  default {
+    preset = bravo_content_elements
+  }
+}

@@ -1,0 +1,15 @@
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/User/General.tsconfig'
+
+admPanel {
+  enable {
+    all = 0
+    preview = 1
+  }
+
+  override {
+    preview {
+      showFluidDebug = 0
+      simulateUserGroup = 0
+    }
+  }
+}

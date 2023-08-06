@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/*.tsconfig'
