@@ -7,6 +7,10 @@ TCEFORM {
   }
 
   tt_content {
-
+    CType {
+            removeItems := addToList(table,bullets,header,textpic,image)
+            disableNoMatchingValueElement = 1
+        }
   }
 }
+
