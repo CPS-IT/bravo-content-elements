@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CPSIT\\BravoContentElements\\": "Classes"
+      "Cpsit\\BravoContentElements\\": "Classes"
     }
   }
 }

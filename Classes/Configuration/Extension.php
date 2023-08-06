@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Cpsit\BravoContentElements\Configuration;
 
 use FilesystemIterator;
-use Cpsit\KiiwSitepackage\Configuration\SettingsInterface as SI;
+use Cpsit\BravoContentElements\Configuration\SettingsInterface as SI;
 use RecursiveDirectoryIterator;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
