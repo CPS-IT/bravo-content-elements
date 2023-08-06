@@ -1,7 +1,7 @@
 #
 # PageTS for KIIW Sitepackage
 #
-@import 'FILE:EXT:bravo_content_elements/Configuration/TsConfig/Base/RTE.tsconfig'
-@import 'FILE:EXT:bravo_content_elements/Configuration/TsConfig/Base/TCEFORM.tsconfig'
-@import 'FILE:EXT:bravo_content_elements/Configuration/TsConfig/Base/TCEMAIN.tsconfig'
-@import 'FILE:EXT:bravo_content_elements/Configuration/TsConfig/Base/Mod/WebLayout/BackendLayouts.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/RTE.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/TCEFORM.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/TCEMAIN.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/Mod/WebLayout/BackendLayouts.tsconfig'
