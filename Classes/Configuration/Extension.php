@@ -36,7 +36,7 @@ final class Extension
 
     protected const REGISTER_PAGE_TSCONFIG_FILES = [
         'Configuration/TsConfig/Base/Page.tsconfig' => 'Page TsConfig Base',
-        'Configuration/TsConfig/Base/InternalPages.tsconfig' => 'Internal pages TsConfig',
+        #'Configuration/TsConfig/Base/InternalPages.tsconfig' => 'Internal pages TsConfig',
     ];
 
     protected const ADD_USER_TSCONFIG = [];
