@@ -1,4 +1,4 @@
-@import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/User/General.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/User/General.tsconfig'
 
 [applicationContext != "Production"]
   options {
