@@ -203,4 +203,11 @@ final class Extension
         ];
     }
 
+    /**
+     * @return array
+     */
+    public static function getTextMediaContentCropVariants(): array
+    {
+        return self::get16x9CropVariants();
+    }
 }
