@@ -36,7 +36,6 @@ final class Extension
         SI::ICON_CONTENT_CONTAINER_COLUMNS_2_RIGHT => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-2-right.svg',
         SI::ICON_CONTENT_CONTAINER_COLUMNS_3 => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-3.svg',
         SI::ICON_CONTENT_CONTAINER_COLUMNS_4 => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-4.svg',
-        SI::ICON_CONTENT_ACCORDION_ITEM => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-accordion-item.svg'
     ];
     protected const ADD_PAGE_TSCONFIG = [];
     protected const ADD_RTE_PRESETS = [
