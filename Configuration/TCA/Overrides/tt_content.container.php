@@ -2,7 +2,7 @@
 
 use B13\Container\Tca\ContainerConfiguration;
 use B13\Container\Tca\Registry;
-use Fr\KediSitepackage\Configuration\SettingsInterface as SI;
+use Cpsit\BravoContentElements\Configuration\SettingsInterface as SI;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 (function () {
@@ -11,14 +11,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_accordion', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'accordion_item']
                     ]
@@ -54,19 +54,19 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_quickfacts', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_quickfacts.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_quickfacts.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_quickfacts.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_quickfacts.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => ['CType' => 'quickfact']
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => ['CType' => 'quickfact']
                     ]
@@ -103,19 +103,19 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_66_33', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => ['CType' => 'text, textmedia, teaser, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => [
                             'CType' => 'text, textmedia, teaser, list, html, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut',
@@ -136,14 +136,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_33_66', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => [
                             'CType' => 'text, textmedia, teaser, list, html, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut',
@@ -151,7 +151,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                         ]
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => ['CType' => 'text, textmedia, teaser, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
                     ]
@@ -169,19 +169,19 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_50_50', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => ['CType' => 'text, textmedia, teaser, contact, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => ['CType' => 'text, textmedia, teaser, contact, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
                     ]
@@ -199,14 +199,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_accordion_stepbystep', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion_stepbystep.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion_stepbystep.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion_stepbystep.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_accordion_stepbystep.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'accordion_stepbystep_item'],
                         'maxitems' => 12
@@ -247,7 +247,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                     'columns' => [
                         'crop' => [
                             'config' => [
-                                'cropVariants' => \Fr\KediSitepackage\Configuration\Extension::getAccordionImageCropVariants()
+                                'cropVariants' => \Cpsit\BravoContentElements\Configuration\Extension::getAccordionImageCropVariants()
                             ]
                         ]
                     ]
@@ -262,14 +262,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_topicteaser', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_topicteaser.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_topicteaser.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_topicteaser.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_topicteaser.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'teaser_topic']
                     ]
@@ -305,19 +305,19 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_benefits', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_benefits.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_benefits.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_benefits.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_benefits.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => ['CType' => 'textmedia']
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => ['CType' => 'mission_statement']
                     ]
@@ -354,14 +354,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_teaserslider', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_teaserslider.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_teaserslider.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_teaserslider.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_teaserslider.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'teaser']
                     ]
@@ -397,14 +397,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_contentteaser', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_contentteaser.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_contentteaser.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_contentteaser.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_contentteaser.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'content_teaser']
                     ]
@@ -440,14 +440,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_tabs', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tabs.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tabs.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tabs.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tabs.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'container_tab_item']
                     ]
@@ -483,14 +483,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_tab_item', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tab_item.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tab_item.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tab_item.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_tab_item.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'text, textmedia, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
                     ]
@@ -525,14 +525,14 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_ctateaser', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_ctateaser.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_ctateaser.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_ctateaser.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_ctateaser.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content',
                         'colPos' => 200,
                         'allowed' => ['CType' => 'cta_teaser']
                     ]
@@ -568,19 +568,19 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_news', // CType
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_news.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_news.title',
             // label
-            'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_news.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_news.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
                         'allowed' => ['CType' => 'teaser_home_top_news']
                     ],
                     [
-                        'name' => 'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
                         'allowed' => ['CType' => 'teaser_home_news']
                     ]
