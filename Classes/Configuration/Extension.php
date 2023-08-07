@@ -132,4 +132,67 @@ final class Extension
         ];
     }
 
+    /**
+     * @return array
+     */
+    public static function getTextMediaContentFreeCropVariants(): array
+    {
+        return [
+            'mobile' => [
+                'title' => 'Mobile',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ],
+                    'NaN' => [
+                        'title' => 'Frei',
+                        'value' => 0.0
+                    ],
+                    '1:1' => [
+                        'title' => '1:1',
+                        'value' => 1 / 1
+                    ]
+                ]
+            ],
+            'tablet' => [
+                'title' => 'Tablet',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ],
+                    'NaN' => [
+                        'title' => 'Frei',
+                        'value' => 0.0
+                    ],
+                    '1:1' => [
+                        'title' => '1:1',
+                        'value' => 1 / 1
+                    ]
+                ]
+            ],
+            'desktop' => [
+                'title' => 'Desktop',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ],
+                    'NaN' => [
+                        'title' => 'Frei',
+                        'value' => 0.0
+                    ],
+                    '1:1' => [
+                        'title' => '1:1',
+                        'value' => 1 / 1
+                    ]
+                ]
+            ],
+        ];
+    }
+
 }

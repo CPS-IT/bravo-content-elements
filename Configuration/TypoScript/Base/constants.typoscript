@@ -1,12 +1,9 @@
+#++++++++++++++++++++++
+# EXTENSIONS Static files alternative zu Includes in Backend
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+#++++++++++++++++++++++
+# EXTENSIONS Setup
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Extensions/FluidStyledContent/constants.typoscript'
 
 
-##############################
-#### FLUID STYLED CONTENT ####
-##############################
-styles {
-  templates {
-    layoutRootPath = EXT:bravo_content_elements/Resources/Private/Layouts/ContentElements/
-    partialRootPath = EXT:bravo_content_elements/Resources/Private/Partials/ContentElements/
-    templateRootPath = EXT:bravo_content_elements/Resources/Private/Templates/ContentElements/
-  }
-}

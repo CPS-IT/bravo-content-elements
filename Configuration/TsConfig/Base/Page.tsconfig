@@ -1,3 +1,6 @@
+@import 'EXT:bravo_content_elements/Configuration/TSconfig/Base/Mod/Wizards/*.tsconfig'
+
+
 #
 # PageTS for Bravo Content Elements
 #

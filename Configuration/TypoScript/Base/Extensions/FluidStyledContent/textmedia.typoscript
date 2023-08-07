@@ -1,0 +1,16 @@
+# Textmedia:
+# Custom configuration textmedia element.
+# Enable image field in text media element
+# CType: textmedia
+tt_content.textmedia {
+  dataProcessing {
+    30 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    30 {
+      references {
+        fieldName = image
+      }
+
+      as = previewImage
+    }
+  }
+}

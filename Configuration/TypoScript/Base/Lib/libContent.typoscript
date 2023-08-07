@@ -1,0 +1,21 @@
+#---------------------------------
+## Content Columns
+## ( Usage in fluid templates: <f:cObject typoscriptObjectPath="lib.content" data="{colPos:0}" /> )
+lib.content < styles.content.get
+lib.content.select {
+  where.field = colPos
+  where.wrap = colPos = |
+}
+
+#---------------------------------
+## Content columns slide
+## ( Usage in fluid templates: <f:cObject typoscriptObjectPath="lib.content_slide" data="{colPos:2}" /> )
+lib.content_slide < styles.content.get
+lib.content_slide {
+  slide = -1
+  select {
+    orderBy = sorting
+    where.field = colPos
+    where.wrap = colPos = |
+  }
+}
