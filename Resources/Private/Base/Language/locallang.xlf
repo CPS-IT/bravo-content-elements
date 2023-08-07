@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file datatype="plaintext" product-name="kedi_sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="accessibility_search_button" approved="yes">
+				<source>search</source>
+			</trans-unit>
+			<trans-unit id="menu" approved="yes">
+				<source>Menu</source>
+			</trans-unit>
+			<trans-unit id="menu.title" approved="yes">
+				<source>Menu</source>
+			</trans-unit>
+			<trans-unit id="logo_accessibility" approved="yes">
+				<source>Logo Kompetenzzentrum Energieeffizienz durch Digitalisierung</source>
+			</trans-unit>
+			<trans-unit id="logo_accessibility_default" approved="yes">
+				<source>Logo Kompetenzzentrum Energieeffizienz durch Digitalisierung - To home page</source>
+			</trans-unit>
+			<trans-unit id="button_to_home" approved="yes">
+				<source>back to the Sitepackage homepage</source>
+			</trans-unit>
+			<trans-unit id="button_to_page" approved="yes">
+				<source>to page</source>
+			</trans-unit>
+			<trans-unit id="button_to_top" approved="yes">
+				<source>to top</source>
+			</trans-unit>
+			<trans-unit id="results" approved="yes">
+				<source>Results</source>
+			</trans-unit>
+			<trans-unit id="to" approved="yes">
+				<source>to</source>
+			</trans-unit>
+			<trans-unit id="of" approved="yes">
+				<source>of</source>
+			</trans-unit>
+			<trans-unit id="previous" approved="yes">
+				<source>Previous</source>
+			</trans-unit>
+			<trans-unit id="next" approved="yes">
+				<source>Next</source>
+			</trans-unit>
+			<trans-unit id="first" approved="yes">
+				<source>first</source>
+			</trans-unit>
+			<trans-unit id="last" approved="yes">
+				<source>last</source>
+			</trans-unit>
+			<trans-unit id="close" approved="yes">
+				<source>close</source>
+			</trans-unit>
+			<trans-unit id="open" approved="yes">
+				<source>open</source>
+			</trans-unit>
+			<trans-unit id="email" approved="yes">
+				<source>E-mail</source>
+			</trans-unit>
+			<trans-unit id="records" approved="yes">
+				<source>Records</source>
+			</trans-unit>
+			<trans-unit id="page" approved="yes">
+				<source>Page</source>
+			</trans-unit>
+			<trans-unit id="refresh" approved="yes">
+				<source>Refresh</source>
+			</trans-unit>
+			<trans-unit id="site_search" approved="yes">
+				<source>Site Search</source>
+			</trans-unit>
+			<trans-unit id="site_search_place_holder" approved="yes">
+				<source>Search query</source>
+			</trans-unit>
+			<trans-unit id="site_search_open" approved="yes">
+				<source>Open search</source>
+			</trans-unit>
+			<trans-unit id="suggest_header">
+				<source>Top Results</source>
+			</trans-unit>
+			<trans-unit id="aria_label_main_menu" approved="yes">
+				<source>Main navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_open_main_menu" approved="yes">
+				<source>Open main navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_sub_menu" approved="yes">
+				<source>Sub navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_skip_menu" approved="yes">
+				<source>Skip navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_search" approved="yes">
+				<source>Search</source>
+			</trans-unit>
+			<trans-unit id="aria_label_menu_overlay" approved="yes">
+				<source>back to home page of KEDi</source>
+			</trans-unit>
+			<trans-unit id="aria_label_menu_topics" approved="yes">
+				<source>Topic navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_breadcrumb_menu" approved="yes">
+				<source>Breadcrumb navigation</source>
+			</trans-unit>
+			<trans-unit id="aria_label_previous_page" approved="yes">
+				<source>go to previous page</source>
+			</trans-unit>
+			<trans-unit id="aria_label_next_page" approved="yes">
+				<source>go to next page</source>
+			</trans-unit>
+			<trans-unit id="aria_label_current_page" approved="yes">
+				<source>current page</source>
+			</trans-unit>
+			<trans-unit id="aria_label_to_top" approved="yes">
+				<source>to top</source>
+			</trans-unit>
+			<trans-unit id="aria.label.accordion" approved="yes">
+				<source>Accordion control group</source>
+			</trans-unit>
+			<trans-unit id="aria_label_showcase_pagination" approved="yes">
+				<source>Showcase pagination</source>
+			</trans-unit>
+			<trans-unit id="aria_label_showcase_pagination_footer" approved="yes">
+				<source>Showcase pagination footer</source>
+			</trans-unit>
+			<trans-unit id="showcase.pagination" approved="yes">
+				<source>Free search</source>
+			</trans-unit>
+			<trans-unit id="load.video.content" approved="yes">
+				<source>Click on the button to load the content.</source>
+			</trans-unit>
+			<trans-unit id="load.video.button" approved="yes">
+				<source>Start video</source>
+			</trans-unit>
+			<trans-unit id="enable.js.to.load.external.content" approved="yes">
+				<source>Enable javascript to load external content.</source>
+			</trans-unit>
+			<trans-unit id="tt_content.uploads.download" approved="yes">
+				<source>Download</source>
+			</trans-unit>
+			<trans-unit id="read.more" approved="yes">
+				<source>More</source>
+			</trans-unit>
+			<trans-unit id="more.information" approved="yes">
+				<source>More information</source>
+			</trans-unit>
+			<trans-unit id="faq.categories.show" approved="yes">
+				<source>Show all</source>
+			</trans-unit>
+			<trans-unit id="faq.search.label" approved="yes">
+				<source>Search</source>
+			</trans-unit>
+			<trans-unit id="faq.search.page" approved="yes">
+				<source>Search page</source>
+			</trans-unit>
+			<trans-unit id="faq.search.placeholder" approved="yes">
+				<source>Enter searchword</source>
+			</trans-unit>
+			<trans-unit id="faq.search.filter" approved="yes">
+				<source>Filter now</source>
+			</trans-unit>
+			<trans-unit id="faq.search.noresult" approved="yes">
+				<source>No result for the search for</source>
+			</trans-unit>
+			<trans-unit id="faq.frame_class.c-faq-category--pri1" approved="yes">
+				<source>c-collapse-content--pri1</source>
+			</trans-unit>
+			<trans-unit id="faq.frame_class.c-faq-category--pri2" approved="yes">
+				<source>c-collapse-content--pri2</source>
+			</trans-unit>
+			<trans-unit id="faq.frame_class.c-faq-category--pri4" approved="yes">
+				<source>c-collapse-content--pri4</source>
+			</trans-unit>
+			<trans-unit id="faq.frame_class.c-faq-category--pri3" approved="yes">
+				<source>c-collapse-content--pri3</source>
+			</trans-unit>
+			<trans-unit id="download.accessibility" approved="yes">
+				<source>accessible</source>
+			</trans-unit>
+			<trans-unit id="download.list" approved="yes">
+				<source>Download list</source>
+			</trans-unit>
+			<trans-unit id="download.filter" approved="yes">
+				<source>Filter now</source>
+			</trans-unit>
+			<trans-unit id="download.author.link" approved="yes">
+				<source>To the network partner</source>
+			</trans-unit>
+			<trans-unit id="gender.m" approved="yes">
+				<source>Mr</source>
+			</trans-unit>
+			<trans-unit id="gender.f" approved="yes">
+				<source>Mrs</source>
+			</trans-unit>
+			<trans-unit id="gender.v" approved="yes">
+				<source>Divers</source>
+			</trans-unit>
+			<trans-unit id="contactbox_header">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="write_email">
+				<source>Write E-Mail</source>
+			</trans-unit>
+			<trans-unit id="defaultImage" approved="yes">
+				<source>No image available</source>
+			</trans-unit>
+			<trans-unit id="networkImage" approved="yes">
+				<source>Your network contact</source>
+			</trans-unit>
+			<trans-unit id="contactType.1" approved="yes">
+				<source>Your personal contact</source>
+			</trans-unit>
+			<trans-unit id="contactTypePlain.1" approved="yes">
+				<source>Your contact</source>
+			</trans-unit>
+			<trans-unit id="contactType.2" approved="yes">
+				<source>Your network contact</source>
+			</trans-unit>
+			<trans-unit id="commentByAuthor" approved="yes">
+				<source>A comment from</source>
+			</trans-unit>
+			<trans-unit id="fromAuthor" approved="yes">
+				<source>from:</source>
+			</trans-unit>
+			<trans-unit id="author.articles" approved="yes">
+				<source>Articles</source>
+			</trans-unit>
+			<trans-unit id="author.downloads" approved="yes">
+				<source>Downloads &amp; links</source>
+			</trans-unit>
+			<trans-unit id="author.showall" approved="yes">
+				<source>Show all</source>
+			</trans-unit>
+			<trans-unit id="author.skype" approved="yes">
+				<source>Skype</source>
+			</trans-unit>
+			<trans-unit id="author.twitter" approved="yes">
+				<source>Twitter</source>
+			</trans-unit>
+			<trans-unit id="author.facebook" approved="yes">
+				<source>Facebook</source>
+			</trans-unit>
+			<trans-unit id="author.linkedin" approved="yes">
+				<source>LinkedIn</source>
+			</trans-unit>
+			<trans-unit id="author.email" approved="yes">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="author.extern" approved="yes">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="author.information" approved="yes">
+				<source>General Information</source>
+			</trans-unit>
+			<trans-unit id="stickySearch.open" approved="yes">
+				<source>Open Sticky Bar</source>
+			</trans-unit>
+			<trans-unit id="stickySearch.searchfield" approved="yes">
+				<source>Search page</source>
+			</trans-unit>
+			<trans-unit id="stickySearch.searchterm" approved="yes">
+				<source>Search term...</source>
+			</trans-unit>
+			<trans-unit id="stickySearch.search" approved="yes">
+				<source>Search</source>
+			</trans-unit>
+			<trans-unit id="searchbox.search" approved="yes">
+				<source>Search</source>
+			</trans-unit>
+			<trans-unit id="searchbox.radio.0" approved="yes">
+				<source>only in questions and answers</source>
+			</trans-unit>
+			<trans-unit id="searchbox.radio.1" approved="yes">
+				<source>on the whole web site</source>
+			</trans-unit>
+			<trans-unit id="hotline.telephone" approved="yes">
+				<source>030-66 777-881</source>
+			</trans-unit>
+			<trans-unit id="hotline.telephoneLink" approved="yes">
+				<source>0049306677881</source>
+			</trans-unit>
+			<trans-unit id="hotline.header" approved="yes">
+				<source>Do you have concrete questions?</source>
+			</trans-unit>
+			<trans-unit id="hotline.subheader" approved="yes">
+				<source>Call our experts:</source>
+			</trans-unit>
+			<trans-unit id="hotline.experts" approved="yes">
+				<source>Afraa Aldaryousi / Simon Becker / Peter Pannier / Odette Tubies / Stephanie Veselá</source>
+			</trans-unit>
+			<trans-unit id="hotline.time.1" approved="yes">
+				<source>Monday: 10 till 12 hour and 14 till 16 hour</source>
+			</trans-unit>
+			<trans-unit id="hotline.time.2" approved="yes">
+				<source>Wednesday and thursday: 10 till 12 hour</source>
+			</trans-unit>
+			<trans-unit id="hotline.active" approved="yes">
+				<source>Hotline now active</source>
+			</trans-unit>
+			<trans-unit id="search.officeHours" approved="yes">
+				<source>mon_10-12*14-16|wed_10-12|thu_10-12</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.closeFilter" approved="yes">
+				<source>Close filter</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.closeMenu" approved="yes">
+				<source>Close Menu</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.mandatory" approved="yes">
+				<source>Mandatory field</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.signlanguage" approved="yes">
+				<source>Sign language</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.plainlanguage" approved="yes">
+				<source>Plain language</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.showcaseProjectsOpenFilter" approved="yes">
+				<source>Open projects filter</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.loadMap" approved="yes">
+				<source>Load map</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.jumpNext" approved="yes">
+				<source>Spring further</source>
+			</trans-unit>
+			<trans-unit id="u_accessibility.jumpPrevious" approved="yes">
+				<source>Spring back</source>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.0" approved="yes">
+				<source>The content cannot be shown, because the marketing-cookies were denied. Click</source>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.1" approved="yes">
+				<source>here</source>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.2" approved="yes">
+				<source>, for accepting the cookies and show the content!</source>
+			</trans-unit>
+			<trans-unit id="imageCompare.noscript" approved="yes">
+				<source>Enable javascript to use image compare viewer.</source>
+			</trans-unit>
+			<trans-unit id="imageCompare.move" approved="yes">
+				<source>move</source>
+			</trans-unit>
+			<trans-unit id="search.results_searched_for" approved="yes">
+				<source>Searched for</source>
+			</trans-unit>
+			<trans-unit id="search.type.faqs" approved="yes">
+				<source>FAQ</source>
+			</trans-unit>
+			<trans-unit id="search.type.page" approved="yes">
+				<source>Page</source>
+			</trans-unit>
+			<trans-unit id="search.type.knowledgeCompass" approved="yes">
+				<source>Knowledge Compass</source>
+			</trans-unit>
+			<trans-unit id="search.type.downloads" approved="yes">
+				<source>Downloads</source>
+			</trans-unit>
+			<trans-unit id="search.type.networkPartner" approved="yes">
+				<source>Network Partner</source>
+			</trans-unit>
+			<trans-unit id="search.type.author" approved="yes">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="search.type.showcase" approved="yes">
+				<source>Best Practice</source>
+			</trans-unit>
+			<trans-unit id="showcase.btnExplore" approved="yes">
+				<source>Explore</source>
+			</trans-unit>
+			<trans-unit id="showcase.btnProject" approved="yes">
+				<source>Project</source>
+			</trans-unit>
+			<trans-unit id="showcase.paginationBack" approved="yes">
+				<source>Back to overview</source>
+			</trans-unit>
+			<trans-unit id="showcase.paginationNext" approved="yes">
+				<source>Next project</source>
+			</trans-unit>
+			<trans-unit id="showcase.projectsFilter" approved="yes">
+				<source>Filter projects</source>
+			</trans-unit>
+			<trans-unit id="showcase.resetFilter" approved="yes">
+				<source>Rest all filter</source>
+			</trans-unit>
+			<trans-unit id="showcase.searchStart" approved="yes">
+				<source>Start search</source>
+			</trans-unit>
+			<trans-unit id="showcase.siteSearch" approved="yes">
+				<source>Free search</source>
+			</trans-unit>
+			<trans-unit id="showcase.sectionOneTitle" approved="yes">
+				<source>Project profile</source>
+			</trans-unit>
+			<trans-unit id="showcase.sectionTwoTitle" approved="yes">
+				<source>Background</source>
+			</trans-unit>
+			<trans-unit id="showcase.sectionThreeTitle" approved="yes">
+				<source>Challenges</source>
+			</trans-unit>
+			<trans-unit id="showcase.sectionFourTitle" approved="yes">
+				<source>Solutions</source>
+			</trans-unit>
+			<trans-unit id="showcase.sectionFiveTitle" approved="yes">
+				<source>Informations</source>
+			</trans-unit>
+			<trans-unit id="search.type.page" approved="yes">
+				<source>Page</source>
+			</trans-unit>
+			<trans-unit id="solr.facets.choose">
+				<source>Please select</source>
+			</trans-unit>
+			<trans-unit id="solr.facets.multiselect">
+				<source>Multiple selection possible</source>
+			</trans-unit>
+			<trans-unit id="solr.facets.showcaseCategory" approved="yes">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="page.informationDate" approved="yes">
+				<source>Information date:</source>
+			</trans-unit>
+			<trans-unit id="file.lastUpdated" approved="yes">
+				<source>Last updated:</source>
+			</trans-unit>
+			<trans-unit id="defaultImage" approved="yes">
+				<source>No image available</source>
+			</trans-unit>
+			<trans-unit id="charts.downloadPng" approved="yes">
+				<source>Download PNG</source>
+			</trans-unit>
+			<trans-unit id="charts.downloadZip" approved="yes">
+				<source>Download ZIP</source>
+			</trans-unit>
+			<trans-unit id="print_pdf" approved="yes">
+				<source>Print / PDF</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

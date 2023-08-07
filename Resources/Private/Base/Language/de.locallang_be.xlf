@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" product-name="kedi_sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="linkHandler.author">
+				<source>Author</source>
+				<target>Autor</target>
+			</trans-unit>
+			<trans-unit id="linkHandler.network_partner">
+				<source>Network partner</source>
+				<target>Netzwerkpartner</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.oneColumn">
+				<source>One column</source>
+				<target>1-spaltig</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.twoColumn">
+				<source>Two columns</source>
+				<target>2-spaltig</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.threeColumn">
+				<source>Three columns</source>
+				<target>3-spaltig</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.home">
+				<source>Home</source>
+				<target>Startseite</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.knowledgeCompass">
+				<source>Knowledge compass</source>
+				<target>Wissenskompass</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.title.showcase">
+				<source>Showcase</source>
+				<target>Showcase</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.left">
+				<source>Left column</source>
+				<target>Linke Spalte</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.main">
+				<source>Main content</source>
+				<target>Hauptinhalt</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.hero">
+				<source>Hero slider</source>
+				<target>Heroslider</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.disruptive_element">
+				<source>Disruptive element</source>
+				<target>Störer</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.right">
+				<source>Right column</source>
+				<target>Rechte Spalte</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.border">
+				<source>Border</source>
+				<target>Randspalte</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.footer">
+				<source>Footer</source>
+				<target>Footer</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.facts">
+				<source>Facts</source>
+				<target>Geprüfte Fakten</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.faqs">
+				<source>FAQs</source>
+				<target>FAQs</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.handouts">
+				<source>Handouts</source>
+				<target>Handreichungen</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.additional_information">
+				<source>Additional information</source>
+				<target>Weitere Inhaltselemente</target>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.contacts">
+				<source>Contacts</source>
+				<target>Kontakte</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_accordion.title">
+				<source>Container Accordion</source>
+				<target>Container Accordeon</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_accordion.description">
+				<source>Container for accordion items</source>
+				<target>Container für Accordeon Einträge</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_quickfacts.title">
+				<source>Container Quick Facts</source>
+				<target>Container Quick Facts</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_quickfacts.description">
+				<source>Container for Quick Facts items</source>
+				<target>Container für Quick Facts Einträge</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_66_33.title">
+				<source>Container 66/33</source>
+				<target>Container 66/33</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_66_33.description">
+				<source>Container for two columns 66/33</source>
+				<target>Container für Inhalt über zwei Spalten 66/33</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_33_66.title">
+				<source>Container 33/66</source>
+				<target>Container 33/66</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_33_66.description">
+				<source>Container for two columns 33/66</source>
+				<target>Container für Inhalt über zwei Spalten 33/66</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_50_50.title">
+				<source>Container 50/50</source>
+				<target>Container 50/50</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_50_50.description">
+				<source>Container for two columns 50/50</source>
+				<target>Container für Inhalt über zwei Spalten 50/50</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_1.title">
+				<source>Container showcase - section 1</source>
+				<target>Container Showcase - Section 1</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_1.description">
+				<source>Container for showcase section 1</source>
+				<target>Container für die Showcase Section 1</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_2.title">
+				<source>Container showcase - section 2</source>
+				<target>Container Showcase - Section 2</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_2.description">
+				<source>Container for showcase section 2</source>
+				<target>Container für die Showcase Section 2</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_3.title">
+				<source>Container showcase - section 3</source>
+				<target>Container Showcase - Section 3</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_3.description">
+				<source>Container for showcase section 3</source>
+				<target>Container für die Showcase Section 3</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_4.title">
+				<source>Container showcase - section 4</source>
+				<target>Container Showcase - Section 4</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_4.description">
+				<source>Container for showcase section 4</source>
+				<target>Container für die Showcase Section 4</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_5.title">
+				<source>Container showcase - section 5</source>
+				<target>Container Showcase - Section 5</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_section_5.description">
+				<source>Container for showcase section 5</source>
+				<target>Container für die Showcase Section 5</target>
+			</trans-unit>
+			<trans-unit id="container.header">
+				<source>Header</source>
+				<target>Überschrift</target>
+			</trans-unit>
+			<trans-unit id="container.content">
+				<source>Content</source>
+				<target>Inhalt</target>
+			</trans-unit>
+			<trans-unit id="container.content.left">
+				<source>Left column</source>
+				<target>Linke Spalte</target>
+			</trans-unit>
+			<trans-unit id="container.content.right">
+				<source>Right column</source>
+				<target>Rechte Spalte</target>
+			</trans-unit>
+			<trans-unit id="container.content.full">
+				<source>Full column</source>
+				<target>Ganze Spalte</target>
+			</trans-unit>
+			<trans-unit id="container.content.showcase_section_5.1">
+				<source>Contact</source>
+				<target>Kontakt</target>
+			</trans-unit>
+			<trans-unit id="container.content.showcase_section_5.2">
+				<source>Actors</source>
+				<target>Akteure</target>
+			</trans-unit>
+			<trans-unit id="container.content.showcase_section_5.3">
+				<source>Download</source>
+				<target>Download</target>
+			</trans-unit>
+			<trans-unit id="container.content.showcase_section_5.4">
+				<source>Text</source>
+				<target>Text</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_accordion_stepbystep.title">
+				<source>Container accordion step by step</source>
+				<target>Container Accordeon Schritt für Schritt</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_accordion_stepbystep.description">
+				<source>Container for accordion step by step items</source>
+				<target>Container für Accordeon Schritt für Schritt Einträge</target>
+			</trans-unit>
+			<trans-unit id="ctype.accordion_stepbystep_item.bodytext">
+				<source>Text (max length 160 chars)</source>
+				<target>Text (maximale Länge 160 Zeichen)</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_topicteaser.title">
+				<source>Container Topic Teaser</source>
+				<target>Container Themen Teaser</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_topicteaser.description">
+				<source>Container for topic teaser items</source>
+				<target>Container für einzelne Themen Teaser</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_benefits.title">
+				<source>Container greeting (benefits)</source>
+				<source>Container Begrüßung (Leistungen)</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_benefits.description">
+				<source>Container for the greeting section with benefits teasers</source>
+				<target>Container für die Begrüßungssektion mit Leistungen Teasern</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_contentteaser.title">
+				<source>Container content teaser 3 col</source>
+				<target>Container Content Teaser 3 Spalten</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_contentteaser.description">
+				<source>Container for content teaser slider 3 cols</source>
+				<target>Container für Content Teaser in 3 Spalten</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_ctateaser.title">
+				<source>Container CTA teaser 3 col</source>
+				<target>Container CTA Teaser 3 Spalten</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_ctateaser.description">
+				<source>Container for CTA teaser slider 3 cols (homepage)</source>
+				<target>Container für CTA Teaser in 3 Spalten (Homepage)</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_news.title">
+				<source>Container news (homepage)</source>
+				<target>Container Aktuelles (Startseite)</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_news.description">
+				<source>Container for the news section with news teasers</source>
+				<target>Container für den Bereich Aktuelles mit news Teasern</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_tab_item.title">
+				<source>Container tab item</source>
+				<target>Container Tab Eintrag</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_tab_item.description">
+				<source>Container for a tab item</source>
+				<target>Container für einen Tab Eintrag</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_tabs.title">
+				<source>Container tabs</source>
+				<target>Container Tabs</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_tabs.description">
+				<source>Container for a tab content navigation</source>
+				<target>Container für eine Tab Inhaltsnavigation</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_teaserslider.title">
+				<source>Container teaser slider</source>
+				<source>Container Teaser Slider</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_teaserslider.description">
+				<source>Container for teaser slider items</source>
+				<target>Container für einen Slider mit Teasern</target>
+			</trans-unit>
+			<trans-unit id="ctype.benefits_target.bodytext">
+				<source>Maximal 6 items</source>
+				<target>Maximal 6 Einträge</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

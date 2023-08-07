@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-12-15T02:43:00Z"
+		  product-name="kedi_sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="pages.hero_image">
+				<source>Hero image (1920x9600/2:1)</source>
+				<target>Hero-Image (1920x9600/2:1)</target>
+			</trans-unit>
+			<trans-unit id="pages.doktype.showcase">
+				<source>Showcase</source>
+				<target>Showcase</target>
+			</trans-unit>
+			<trans-unit id="pages.doktype.showcase_promotion">
+				<source>Showcase Promotion</source>
+				<target>Showcase Aktion</target>
+			</trans-unit>
+			<trans-unit id="pages.doktype.knowledge_compass">
+				<source>Knowledge compass</source>
+				<target>Wissenskompass</target>
+			</trans-unit>
+			<trans-unit id="pages.tabs.intro">
+				<source>Intro</source>
+				<target>Einführungsabsatz</target>
+			</trans-unit>
+			<trans-unit id="pages.tabs.teaser">
+				<source>Teaser</source>
+				<target>Teaser</target>
+			</trans-unit>
+			<trans-unit id="pages.palette.teaser_header">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="pages.palette.publication_date">
+				<source>Information date</source>
+				<target>Stand der Information</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_header">
+				<source>Teaser title</source>
+				<target>Teaser-Titel</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_subheader">
+				<source>Teaser Sub-title</source>
+				<target>Teaser-Untertitel</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_link_label">
+				<source>Teaser Linklabel</source>
+				<target>Teaser-Linklabel</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_bodytext">
+				<source>Teaser text</source>
+				<target>Teaser-Text</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_image">
+				<source>Teaser image (min Size 1920x1080 px)</source>
+				<target>Teaser-Bild (min Größe 1920x1080 px)</target>
+			</trans-unit>
+			<trans-unit id="pages.teaser_highlight">
+				<source>Teaser highlight</source>
+				<target>Teaser hervorheben</target>
+			</trans-unit>
+			<trans-unit id="pages.publication_date">
+				<source>Information date</source>
+				<target>Stand der Information</target>
+			</trans-unit>
+			<trans-unit id="pages.disabled_publication_date">
+				<source>Disable information date</source>
+				<target>Stand der Information ausblenden</target>
+			</trans-unit>
+			<trans-unit id="pages.intro_text">
+				<source>Intro text</source>
+				<target>Einführungsabsatz</target>
+			</trans-unit>
+			<trans-unit id="pages.intro_media">
+				<source>Media</source>
+				<target>Media</target>
+			</trans-unit>
+			<trans-unit id="pages.no_sitemap">
+				<source>Add to sitemap</source>
+				<target>Zur Sitemap hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.accessibility">
+				<source>Accessibility</source>
+				<target>Barrierefreiheit</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.bitv">
+				<source>free</source>
+				<target>frei</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion">
+				<source>Accordion</source>
+				<target state="translated">Akkordeon</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_description">
+				<source>Adds an accordion to the website</source>
+				<target state="translated">Fügt ein Akkordeon hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_item">
+				<source>Accordion Item</source>
+				<target state="translated">Akkordeon Eintrag</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_item_description">
+				<source>Adds an accordion item to the accordion</source>
+				<target state="translated">Fügt einen Akkordeon Eintrag hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_stepbystep_item">
+				<source>Step by step accordion Item</source>
+				<target state="translated">Schrit nach Schritt Akkordeon Eintrag</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_stepbystep_item_description">
+				<source>Adds an step by step accordion item</source>
+				<target state="translated">Fügt einen Schritt nach Schritt Akkordeon Eintrag hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.textmedia.assets">
+				<source>Media elements (min Size 840x560 px)</source>
+				<target>Medienelemente (min Größe 840x560 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.map_iframe">
+				<source>Embed Map (HTML iframe code)</source>
+				<target>Karte einbetten (HTML iframe Kode)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.map.preview.image">
+				<source>Map preview image (min Size 840x560 px)</source>
+				<target>Map-Vorschaubild (min Größe 840x560 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.video.preview.image">
+				<source>Video preview image (min Size 840x560 px)</source>
+				<target>Video-Vorschaubild (min Größe 840x560 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.quickfact">
+				<source>Quick fact</source>
+				<target>Quick Fact</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.quickfact_description">
+				<source>The Quick fact element adds a Quick fact entry to the website</source>
+				<target>Das Element "Quick Fact" fügt der Website einen Quick Fact Eintrag hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.colorbox">
+				<source>Colorbox</source>
+				<target>Colorbox</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.colorbox_description">
+				<source>The Colorbox element adds a Colorbox content element to the website</source>
+				<target>Das Element "Colorbox" fügt der Website ein Colorbox Inhaltselement hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer">
+				<source>Cta footer button</source>
+				<target>Cta Footer Button</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer_description">
+				<source>Cta button for footer</source>
+				<target>Cta Button für den Footer</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.sheetTitle">
+				<source>Cta footer</source>
+				<target>Cta Footer</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.items.title">
+				<source>Items</source>
+				<target>Einträge</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.item.title">
+				<source>Item</source>
+				<target>Eintrag</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.item.link">
+				<source>Link</source>
+				<target>Link</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.item.linktext">
+				<source>Linktext</source>
+				<target>Linktext</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_footer.item.linktitle">
+				<source>Linktitle</source>
+				<target>Linktitle</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox">
+				<source>Linkbox</source>
+				<target>Linkliste</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox_description">
+				<source>Linkbox for anchors</source>
+				<target>Linkliste für anchors</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox.sheetTitle">
+				<source>Linkbox</source>
+				<target>Linkliste</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox.items.title">
+				<source>Items</source>
+				<target>Einträge</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox.item.title">
+				<source>Item</source>
+				<target>Eintrag</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox.item.link">
+				<source>Link</source>
+				<target>Link</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.linkbox.item.linktext">
+				<source>Linktext</source>
+				<target>Linktext</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.accordion_item_description">
+				<source>Adds an accordion item to the accordion</source>
+				<target>Adds an accordion item to the accordion</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_slider">
+				<source>Logo slider</source>
+				<target>Logo Slider</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_slider_description">
+				<source>Adds a logo slider</source>
+				<target>Fügt einen Logo Slider hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_slider.image">
+				<source>Image (max height 160 px)</source>
+				<target>Bild (maximale Höhe 160 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_wall">
+				<source>Logo wall</source>
+				<target>Logo Wand</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_wall_description">
+				<source>Adds a logo wall</source>
+				<target>Fügt eine Logo-Wand hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.logo_wall.image">
+				<source>Image (max height 160 px)</source>
+				<target>Bild (maximale Höhe 160 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser">
+				<source>CTA teaser</source>
+				<target>CTA Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser_description">
+				<source>Adds a CTA teaser to the website</source>
+				<target>Fügt einen CTA Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_compare">
+				<source>Image Compare (ShowCase)</source>
+				<target>Bild Vergleich (Showcase)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_compare_description">
+				<source>Adds an image compare for the showcase section to the website</source>
+				<target>Fügt einen Bild Vergleich für die Showcase Section hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_compare.image">
+				<source>2 images to compare</source>
+				<target>2 Bilder zum Vergleich</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery.image">
+				<source>min. 2 images</source>
+				<target>Mind. 2 Bilder</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_showcase">
+				<source>Image ShowCase</source>
+				<target>Bild Showcase</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_showcase_description">
+				<source>Adds a ShowCase image to the website</source>
+				<target>Fügt ein Showcase Bild hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.map_showcase">
+				<source>Google map showCase</source>
+				<target>Google Map ShowCase</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.map_showcase_description">
+				<source>Adds a google map (iframe) to the website</source>
+				<target>Fügt eine Gopgle Map (iframe) hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser">
+				<source>Teaser</source>
+				<target>Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_description">
+				<source>Adds a teaser to the website</source>
+				<target>Fügt einen Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_advanced">
+				<source>Teaser Advanced</source>
+				<target>Teaser Advanced</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_advanced_description">
+				<source>Adds an advanced teaser to the website</source>
+				<target>Fügt einen Advanced Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_home_news">
+				<source>Teaser home news</source>
+				<target>Fügt einen News Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_home_news_description">
+				<source>Adds a news teaser to the website (homepage)</source>
+				<target>Fügt einen News-Teaser hinzu (Startseite)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_home_top_news">
+				<source>Teaser home top news</source>
+				<target>Fügt eine Top-News Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_home_top_news_description">
+				<source>Adds a top news teaser to the website (homepage)</source>
+				<target>Fügt einen Top-News-Teaser hinzu (Startseite)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_news">
+				<source>Teaser news</source>
+				<target>Teaser Aktuelles</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_news_description">
+				<source>Adds a news teaser to the website</source>
+				<target>Fügt einen Aktuelles-Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_showcase">
+				<source>Teaser ShowCase</source>
+				<target>Teaser ShowCase</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_showcase_description">
+				<source>Adds a ShowCase teaser (large image) to the website</source>
+				<target>Fügt einen ShowCase Teaser (Bild groß) hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_topic">
+				<source>Topic Teaser</source>
+				<target>Themen Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_topic_description">
+				<source>Adds a topic teaser to the website</source>
+				<target>Fügt einen Themen-Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_actors">
+				<source>Teaser Actors</source>
+				<target>Teaser Akteure</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_actors_description">
+				<source>Actors teaser for showcases</source>
+				<target>Akteure Teaser für Showcases</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.benefits_network">
+				<source>Greetings section: benefits network</source>
+				<target>Begrüßungssektion: Benefits Netzwerk</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.benefits_network_description">
+				<source>Adds a benefits network content element to the website</source>
+				<target>Fügt Benefits Netzwerk (Begrüßungssektion) hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.benefits_target">
+				<source>Greetings section: benefits target</source>
+				<target>Begrüßungssektion: Benefits Zielgruppen</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.benefits_target_description">
+				<source>Adds a benefits target (greetings section) to the website</source>
+				<target>Fügt Benefits Zielgruppen (Begrüßungssektion) hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.mission_statement">
+				<source>Greetings section: mission statement</source>
+				<target>Begrüßungssektion: Unsere Mission</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.mission_statement_description">
+				<source>Adds a mission statement (greetings section) to the website</source>
+				<target>Fügt ein "Unsere Mission" Statement (Begrüßungssektion) hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.header_link">
+				<source>Subheader with link</source>
+				<target>Zwischenüberschrift mit Link</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.header_link_description">
+				<source>Adds a subheader with an optional link</source>
+				<target>Fügt eine Zwischenüberschrift mit optinalem Link hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.testimonial">
+				<source>Testimonial teaser</source>
+				<target>Testimonial Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.testimonial_description">
+				<source>The testimonial element adds a testimonial teaser with background image to the website</source>
+				<target>Fügt einen Testimonial-Teaser mit Hintergrundbild hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.map_iframe">
+				<source>Google map iframe</source>
+				<target>Google Map Iframe</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_label">
+				<source>Teaser label</source>
+				<target>Teaser Kennzeichnung</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link">
+				<source>Teaser link</source>
+				<target>Teaser-Link</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link_page">
+				<source>Teaser link (infos from page)</source>
+				<target>Teaser-Link (Info aus Seite)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link_label">
+				<source>Teaser link label</source>
+				<target>Teaser-Link-Label</target>
+			</trans-unit>
+			<trans-unit id="tt_content.palette.publication_date">
+				<source>Publication date</source>
+				<target>Veröffentlichungsdatum</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_disabled_publication_date">
+				<source>Disable teaser publication date</source>
+				<target>Veröffentlichungsdatum in den Teaser ausblenden</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_disabled_image">
+				<source>Disable the image in teaser</source>
+				<target>Bild im Teaser ausblenden</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.contact">
+				<source>Contact</source>
+				<target>Kontakt</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.contact_description">
+				<source>The contact element adds a contact box to the website.</source>
+				<target>Das Kontakt Element fügt einen Kontaktbox zur Webseite hinzu.</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.searchbox">
+				<source>Searchbox with hotline</source>
+				<target>Searchbox mit Hotline</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.searchbox_description">
+				<source>The searchbox element adds a searchbox with hotline to the website.</source>
+				<target>Das Searchbox Element fügt eine Searchbox mit Hotline zur Webseite hinzu.</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.anchorNavigation">
+				<source>Section Index (generated)</source>
+				<target>Sektionsindex (generiert)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.anchorNavigation_description">
+				<source>Section Index. The element contains title, description and an automatically rendered section
+					index of the current page.
+				</source>
+				<target>Sektionsindex. Das Element enthält Titel, Beschreibung und einen automatitsch erzeugten
+					Sektionsindex der aktuellen Seite.
+				</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery">
+				<source>Image gallery</source>
+				<target>Bildergalerie</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery_description">
+				<source>Inserts an image gallery to the website</source>
+				<target>Fügt eine Bildergalerie zur Webseite hinzu.</target>
+			</trans-unit>
+			<trans-unit id="tt_content.group.teaser">
+				<source>Teaser</source>
+				<target>Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.quote">
+				<source>Quote</source>
+				<target>Zitat</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.quote_description">
+				<source>The Quote element adds a quote text to the website</source>
+				<target>Das Element "Zitat" fügt der Website einen Zitattext hinzu</target>
+			</trans-unit>
+			<trans-unit id="quote.author">
+				<source>Author</source>
+				<target>Autorin</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
