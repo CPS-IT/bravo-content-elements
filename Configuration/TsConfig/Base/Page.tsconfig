@@ -1,5 +1,5 @@
 #
-# PageTS for KIIW Sitepackage
+# PageTS for Bravo Content Elements
 #
 @import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/RTE.tsconfig'
 @import 'EXT:bravo_content_elements/Configuration/TsConfig/Base/TCEFORM.tsconfig'
