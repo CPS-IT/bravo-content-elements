@@ -1,0 +1,39 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:fr="http://typo3.org/ns/Cpsit/CpsUtility/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<picture>
+    <f:if condition="{data.imageorient} == '0' || {data.imageorient} == '8'">
+        <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
+                data-srcset="{f:uri.image(image: file, maxWidth: '1280', cropVariant: 'desktop')}"
+                media="(min-width: 700px)">
+    </f:if>
+    <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
+            data-srcset="{f:uri.image(image: file, maxWidth: '640', cropVariant: 'tablet')}" media="(min-width: 370px)">
+    <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
+            data-srcset="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}">
+    <img class="c-img lazyload"
+         src="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
+         data-src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
+         alt="{file.alternative}" title="{file.title}"
+         width="{fr:processedMediaProperties(property:'width', resource: '{f:uri.image(image: file, maxWidth: \'320\', cropVariant: \'mobile\')}')}"
+         height="{fr:processedMediaProperties(property:'height', resource: '{f:uri.image(image: file, maxWidth: \'320\', cropVariant: \'mobile\')}')}"
+    >
+</picture>
+
+<noscript>
+    <div class="c-img-wrapper-no-js">
+        <img class="c-img c-img--no-js"
+             src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
+             alt="{file.alternative}" title="{file.title}"
+             width="{fr:processedMediaProperties(property:'width', resource: '{f:uri.image(image: file, maxWidth: \'320\', cropVariant: \'mobile\')}')}"
+             height="{fr:processedMediaProperties(property:'height', resource: '{f:uri.image(image: file, maxWidth: \'320\', cropVariant: \'mobile\')}')}"
+        >
+    </div>
+</noscript>
+
+<f:if condition="{file.properties.copyright}">
+    <div class="c-copyright">
+        <div class="c-copyright__text">&copy; {file.properties.copyright}</div>
+    </div>
+</f:if>
+</html>

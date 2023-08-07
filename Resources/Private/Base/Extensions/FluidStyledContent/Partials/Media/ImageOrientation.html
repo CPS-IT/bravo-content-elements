@@ -1,0 +1,35 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:section name="Main">
+    <f:spaceless>
+        <f:switch expression="{imageorient}">
+            <f:case value="0">
+                c-text-media__inner--above
+            </f:case>
+            <f:case value="8">
+                c-text-media__inner--below
+            </f:case>
+            <f:case value="17">
+                c-text-media__inner--float-right
+            </f:case>
+            <f:case value="18">
+                c-text-media__inner--float-left
+            </f:case>
+            <f:case value="25">
+                c-text-media__inner--right
+            </f:case>
+            <f:case value="26">
+                c-text-media__inner--left
+            </f:case>
+            <f:case value="30">
+                c-text-media__inner--float-left-small
+            </f:case>
+            <f:case value="31">
+                c-text-media__inner--float-right-small
+            </f:case>
+            <f:defaultCase>
+                c-text-media__inner--above
+            </f:defaultCase>
+        </f:switch>
+    </f:spaceless>
+</f:section>
+</html>

@@ -1,0 +1,14 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+{f:variable(name: 'languageFilePath',
+value:'LLL:EXT:kedi_sitepackage/Resources/Private/Base/Language/locallang.xlf:')}
+<h2 class="c-showcase-section__headline u-accessibility">
+    <f:if condition="{header}">
+        <f:then>
+            {header}
+        </f:then>
+        <f:else>
+            {f:translate(key: '{languageFilePath}showcase.{altTitle}')}
+        </f:else>
+    </f:if>
+</h2>
+</html>
