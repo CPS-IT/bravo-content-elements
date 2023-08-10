@@ -3,9 +3,9 @@
 editor:
   allowedContent: true
   config:
-    format_h2: { name: "H2 Überschrift", element: "h2", classes: ['u-typo:xxl', 'u-typo:bold2'] }
-    format_h3: { name: "H3 Überschrift", element: "h3", classes: ['u-typo:xl', 'u-typo:bold2'] }
-    format_h4: { name: "H4 Überschrift", element: "h4", classes: ['u-typo:l', 'u-typo:bold'] }
+    heading:
+      options:
+        - { model: "H2nn Überschrift", title: "h2", class: ['u-typo:xxl', 'u-typo:bold2'] }
 
     # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
     style:
