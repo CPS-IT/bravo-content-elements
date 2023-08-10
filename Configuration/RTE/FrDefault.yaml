@@ -3,7 +3,7 @@ imports:
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
-  - { resource: "EXT:bravo_content_elements/Configuration/Tsconfig/Base/Rte/StylesSet.yaml" }
+  - { resource: "EXT:bravo_content_elements/Configuration/TsConfig/Base/Rte/StylesSet.yaml" }
 
 editor:
   allowedContent: true
