@@ -20,24 +20,20 @@ editor:
         # grouping separator
         - '|'
         - bold
-        - italic
         - subscript
         - superscript
-        - softhyphen
+        - underline
+        - strike
         - '|'
         - bulletedList
         - numberedList
-        - blockQuote
         - alignment
         - '|'
-        - findAndReplace
         - link
         - '|'
         - removeFormat
         - undo
         - redo
-        - '|'
-        - insertTable
         - '|'
         - specialCharacters
         - sourceEditing
