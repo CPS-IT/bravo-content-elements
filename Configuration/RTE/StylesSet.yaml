@@ -5,7 +5,7 @@ editor:
   config:
     heading:
       options:
-        - { model: "H2nn Überschrift", title: "h2", class: ['u-typo:xxl', 'u-typo:bold2'] }
+        - { model: "H2nn Überschrift", title: "h2", class: ['u-typo:xxl u-typo:bold2'] }
 
     # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
     style:
