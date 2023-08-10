@@ -11,44 +11,52 @@ editor:
     contentsCss:
       - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/contents.css"
 
-    defaultContentLanguage: "de"
-    defaultLanguage: "de"
+    ContentLanguage: "de"
 
-    extraAllowedContent: ''
+    toolbar:
+      items:
+        - style
+        - heading
+        # grouping separator
+        - '|'
+        - bold
+        - italic
+        - subscript
+        - superscript
+        - softhyphen
+        - '|'
+        - bulletedList
+        - numberedList
+        - blockQuote
+        - alignment
+        - '|'
+        - findAndReplace
+        - link
+        - '|'
+        - removeFormat
+        - undo
+        - redo
+        - '|'
+        - insertTable
+        - '|'
+        - specialCharacters
+        - sourceEditing
 
-    format_tags: "p;h2;h3;h4;pre"
+    alignment:
+      options:
+        - { name: 'left', className: 'text-left' }
+        - { name: 'center', className: 'text-center' }
+        - { name: 'right', className: 'text-right' }
+        - { name: 'justify', className: 'text-justify' }
 
-    ## Tags that are allowed outside of paragraphs
-    allowTagsOutside: [address, article, aside, br, blockquote, footer, header, hr, nav, section, div]
-
-    toolbarGroups:
-      - { name: clipboard, groups: [clipboard, cleanup, undo] }
-      - { name: editing,   groups: [find, selection, spellchecker] }
-      #- { name: tools, groups: [ specialchar,showBlocks ] }
-      - { name: document, groups: [ mode ] }
-      - { name: styles, groups: [ styles ] }
-      - { name: basicstyles, groups: [ basicstyles, align ] }
-      - { name: paragraph, groups: [ list, indent, align ] }
-      - { name: links, groups: [ links ] }
-      - { name: insert, groups: [ insert, abbr ] }
-
+    table:
+      defaultHeadings: { rows: 1 }
+      contentToolbar:
+        - tableColumn
+        - tableRow
+        - mergeTableCells
+        - tableProperties
+        - tableCellProperties
 
     extraPlugins:
 
-
-    removePlugins:
-      - image
-
-    justifyClasses:
-      - u-align-left
-      - u-align-center
-
-    removeButtons:
-      - Table
-      - Italic
-
-# Allow s and u tag
-processing:
-  allowTags:
-    - s
-    - u
