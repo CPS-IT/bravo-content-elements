@@ -5,7 +5,7 @@ editor:
   config:
     heading:
       options:
-        - { model: "heading2", view: "h2", title: "h2hrt", class: 'u-typo:xxlu-typo:bold2' }
+        - { model: "heading2", view: "h2", title: "h2hrt", class: 'myclass' }
 
     # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
     style:
