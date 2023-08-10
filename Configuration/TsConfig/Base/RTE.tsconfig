@@ -1,8 +1,11 @@
-#############
-#### RTE ####
-#############
-RTE {
-  default {
-    preset = bravo_content_elements
-  }
+# default settings, other options: full, minimal or custom1
+RTE.default.preset = Default
+
+RTE.config {
+    pages {
+        #intro_text.preset = FrDefault
+    }
+
+
 }
+
