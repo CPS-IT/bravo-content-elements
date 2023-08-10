@@ -1,7 +1,7 @@
 # Load stylesSets
 
 editor:
-  allowedContent: true
+
   config:
     heading:
       options:
@@ -45,7 +45,7 @@ buttons:
       enabled: true
     properties:
       class:
-        allowedClasses: 'c-button c-button--main c-button--editor, c-button c-button--second c-button--editor, c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email,
+        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email,
         c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone'
       title:
         readOnly: false

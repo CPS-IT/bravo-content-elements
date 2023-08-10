@@ -6,7 +6,6 @@ imports:
   - { resource: "EXT:bravo_content_elements/Configuration/RTE/StylesSet.yaml" }
 
 editor:
-  allowedContent: true
 
   config:
     contentsCss:
