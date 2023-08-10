@@ -8,7 +8,7 @@ defined('TYPO3') or die();
 
     foreach ($rtePresets as $rtePreset) {
         $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets'][$rtePreset] =
-            'EXT:' . $extKey . '/Configuration/TSconfig/Base/Rte/' . $rtePreset . '.yaml';
+            'EXT:' . $extKey . '/Configuration/Tsconfig/Base/Rte/' . $rtePreset . '.yaml';
     }
 
 
