@@ -23,7 +23,7 @@ editor:
         - subscript
         - superscript
         - underline
-        - strike
+        - strikethrough
         - '|'
         - bulletedList
         - numberedList
@@ -35,7 +35,6 @@ editor:
         - undo
         - redo
         - '|'
-        - specialCharacters
         - sourceEditing
 
     alignment:
