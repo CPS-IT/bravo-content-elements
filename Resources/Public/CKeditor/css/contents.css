@@ -1,0 +1,8 @@
+
+.cke_editable {
+    font-size: 14px;
+    line-height: 1.5;
+
+    /* Fix for missing scrollbars with RTL texts. (#10488) */
+    word-wrap: break-word;
+}

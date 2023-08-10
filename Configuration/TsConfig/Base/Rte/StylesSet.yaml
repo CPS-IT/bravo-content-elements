@@ -1,0 +1,98 @@
+# Load stylesSets
+
+editor:
+  allowedContent: true
+  config:
+    format_h2: { name: "H2 Überschrift", element: "h2", attributes: { class: "u-typo:xxl u-typo:bold2" } }
+    format_h3: { name: "H3 Überschrift", element: "h3", attributes: { class: "u-typo:xl u-typo:bold2" } }
+    format_h4: { name: "H4 Überschrift", element: "h4", attributes: { class: "u-typo:l u-typo:bold" } }
+
+    # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
+    stylesSet:
+      - { name: "fetter Absatz", element: "p", attributes: { class: "u-typo:bold" } }
+
+      # block level styles
+      - { name: "H2 Überschrift", element: "h2", attributes: { class: "u-typo:xxl u-typo:bold" } }
+      - { name: "H3 Überschrift", element: "h3", attributes: { class: "u-typo:xl u-typo:bold" } }
+      - { name: "H4 Überschrift", element: "h4", attributes: { class: "u-typo:l u-typo:bold" } }
+
+      # Links
+      - { name: "Button grün", element: "a", attributes: { class: "c-button c-button--main c-button--editor" } }
+      - { name: "Button grau", element: "a", attributes: { class: "c-button c-button--second c-button--editor" } }
+      - { name: "Link ohne Pfeil", element: "a", attributes: {class: "c-link" } }
+      - { name: "Link Download", element: "a", attributes: {class: "c-link u-icon u-icon:left u-icon--download" } }
+      - { name: "Link E-Mail", element: "a", attributes: {class: "c-link u-icon u-icon:left u-icon--email" } }
+      - { name: "Link extern", element: "a", attributes: {class: "c-link u-icon u-icon:left u-icon--extern" } }
+      - { name: "Link Telefon", element: "a", attributes: {class: "c-link u-icon u-icon:left u-icon--phone" } }
+
+      # List styles
+      - { name: 'UL Styled', element: 'ul', attributes: { class: 'c-list c-list--unordered', role: 'list'} }
+      - { name: 'OL Styled', element: 'ol', attributes: { class: 'c-list c-list--ordered' , role: 'list'} }
+
+##Button config and defaults
+buttons:
+  table:
+    info:
+      enabled: false
+  link:
+    relAttribute:
+      enabled: true
+    targetSelector:
+      enabled: true
+    properties:
+      class:
+        allowedClasses: 'c-button c-button--main c-button--editor, c-button c-button--second c-button--editor, c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email,
+        c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone'
+      title:
+        readOnly: false
+    page:
+      properties:
+        class:
+          default: 'c-link'
+    file:
+      properties:
+        class:
+          default: 'c-link u-icon u-icon:left u-icon--download'
+    folder:
+      properties:
+        class:
+          default: 'c-link'
+    url:
+      properties:
+        class:
+          default: 'c-link u-icon u-icon:left u-icon--extern'
+    mail:
+      properties:
+        class:
+          default: 'c-link u-icon u-icon:left u-icon--email'
+
+#Classes config
+classesAnchor:
+  linkInternal:
+    class: 'c-link'
+    type: 'page'
+  linkDownload:
+    class: 'c-link u-icon u-icon:left u-icon--download'
+    type: 'file'
+  linkFolder:
+    class: 'c-link'
+    type: 'folder'
+  linkExternal:
+    class: 'c-link u-icon u-icon:left u-icon--extern'
+    type: 'url'
+    target: '_blank'
+  linkEmail:
+    class: 'c-link u-icon u-icon:left u-icon--email'
+    type: 'mail'
+
+classes:
+  c-link:
+    name: 'Link ohne Pfeil'
+  c-link u-icon u-icon:left u-icon--download:
+    name: 'Link Download'
+  c-link u-icon u-icon:left u-icon--email:
+    name: 'Link E-Mail'
+  c-link u-icon u-icon:left u-icon--extern:
+    name: 'Link extern'
+  c-link u-icon u-icon:left u-icon--phone:
+    name: 'Link Telefon'
