@@ -5,9 +5,9 @@ editor:
   config:
     heading:
       options:
-        - { model: "headingFancy", view: { name: 'h2', classes: 'fancy' } , title: "h2hrt", class: 'ck-heading_heading2_fancy', converterPriority: "high"}
         - { model: "headingh2custom", view: { name: 'h2', classes: 'u-typo:xxl u-typo:bold2' } , title: "h2", class: 'ck-heading_heading2_h2custom', converterPriority: "high"}
         - { model: "headingh3custom", view: { name: 'h3', classes: 'u-typo:xl u-typo:bold2' } , title: "h3", class: 'ck-heading_heading3_h3custom', converterPriority: "high"}
+        - { model: "headingh4custom", view: { name: 'h4', classes: 'u-typo:l u-typo:bold' } , title: "h4", class: 'ck-heading_heading4_h4custom', converterPriority: "high"}
 
     # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
     style:
