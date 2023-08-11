@@ -45,8 +45,7 @@ buttons:
       enabled: true
     properties:
       class:
-        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email,
-        c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone'
+        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone'
       title:
         readOnly: false
     page:
@@ -69,6 +68,9 @@ buttons:
       properties:
         class:
           default: 'c-link u-icon u-icon:left u-icon--email'
+
+
+
 
 #Classes config
 classesAnchor:
