@@ -4,7 +4,6 @@
 
 #++++++++++++++++++++++
 # other libs
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/lib.emptyGif.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/libContent.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/libParseFuncRTE.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/lib.stringReplace.typoscript'
