@@ -8,11 +8,12 @@
                 <f:link.typolink
                     parameter="{file.link}"
                     class="c-figure__link"
+                    parts-as="parts"
                 >
                     <f:render partial="Media/Rendering/Image"
                               arguments="{file: file, dimensions: dimensions, settings: settings, CType:data.CType}"/>
                     <span class="u-accessibility">
-                        {f:translate(key:'{languageFilePath}u_accessibility.openPageIntern')}
+                        {f:translate(key:'{languageFilePath}u_accessibility.openPageIntern')} {parts.title}
                     </span>
                 </f:link.typolink>
             </f:then>
