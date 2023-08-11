@@ -440,6 +440,10 @@
                 <source>enlarges the image</source>
                 <target>öffnet Bild in einer vergrößerten Darstellung</target>
             </trans-unit>
+            <trans-unit id="u_accessibility.buttonLightbox" approved="yes">
+                <source>opens internal page</source>
+                <target>öffnet interne Seite</target>
+            </trans-unit>
 			<trans-unit id="cookiebot.video.0" approved="yes">
 				<source>The content cannot be shown, because the marketing-cookies were denied. Click</source>
 				<target>Diese Inhalte können nicht angezeigt werden, da die Marketing-Cookies abgelehnt wurden. Klicken
