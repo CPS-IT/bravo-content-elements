@@ -5,7 +5,10 @@
     <div class="c-figure__inner">
         <f:if condition="{file.link}">
             <f:then>
-                <f:link.typolink parameter="{file.link}" title="{file.title}">
+                <f:link.typolink
+                    parameter="{file.link}"
+                    class="c-figure__link"
+                >
                     <f:render partial="Media/Rendering/Image"
                               arguments="{file: file, dimensions: dimensions, settings: settings, CType:data.CType}"/>
                 </f:link.typolink>
