@@ -25,10 +25,20 @@
                                 {f:translate(key:'{languageFilePath}u_accessibility.buttonLightbox')}
                             </span>
                         </button>
+                        <f:if condition="{file.properties.copyright}">
+                            <div class="c-copyright">
+                                <div class="c-copyright__text">&copy; {file.properties.copyright}</div>
+                            </div>
+                        </f:if>
                     </f:then>
                     <f:else>
                         <f:render partial="Media/Rendering/Image"
                                   arguments="{file: file, dimensions: dimensions, settings: settings, CType:data.CType, data:data}"/>
+                        <f:if condition="{file.properties.copyright}">
+                            <div class="c-copyright">
+                                <div class="c-copyright__text">&copy; {file.properties.copyright}</div>
+                            </div>
+                        </f:if>
                     </f:else>
                 </f:if>
             </f:else>
