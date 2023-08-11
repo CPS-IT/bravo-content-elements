@@ -1,4 +1,3 @@
 lib.pageTitle = TEXT
-lib.pageTitle.value =
-lib.pageTitle.override = {page:nav_title//page:title}
-lib.pageTitle.override.insertData = 1
+lib.pageTitle.value = {page:nav_title//page:title}
+lib.pageTitle.insertData = 1
