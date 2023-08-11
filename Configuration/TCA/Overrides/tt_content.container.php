@@ -29,7 +29,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                         'allowed' => ['CType' => 'text, textmedia']
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 302,
                         'allowed' => ['CType' => 'text, textmedia']
                     ]

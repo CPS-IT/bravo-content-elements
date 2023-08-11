@@ -1,8 +1,8 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 <f:layout name="PageComponent"/>
-<f:section name="Main">text aus template
+<f:section name="Main">
     <div id="c{data.uid}"
-         class="c-{data.CType} u-space-top:default{f:if(condition: '{data.frame_class} == 4', then: ' u-border')}">
+         class="c-{data.CType} u-space-top:default">
         <f:if condition="{data._LOCALIZED_UID}">
             <a id="c{data._LOCALIZED_UID}"></a>
         </f:if>
