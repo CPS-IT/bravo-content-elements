@@ -75,6 +75,12 @@
 			<trans-unit id="ctype.container_quickfacts.description">
 				<source>Container for Quick Facts items</source>
 			</trans-unit>
+            <trans-unit id="ctype.container_col_33_33_33.title">
+                <source>Container 33/33/33</source>
+            </trans-unit>
+            <trans-unit id="ctype.container_col_33_33_33.description">
+                <source>Container for three columns 33/33/33</source>
+            </trans-unit>
 			<trans-unit id="ctype.container_col_66_33.title">
 				<source>Container 66/33</source>
 			</trans-unit>
@@ -135,6 +141,9 @@
 			<trans-unit id="container.content.right">
 				<source>Right column</source>
 			</trans-unit>
+            <trans-unit id="container.content.middle">
+                <source>Middle column</source>
+            </trans-unit>
 			<trans-unit id="container.content.full">
 				<source>Full column</source>
 			</trans-unit>

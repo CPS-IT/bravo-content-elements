@@ -7,6 +7,41 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 (function () {
 
+    // container_col_33 begin
+    GeneralUtility::makeInstance(Registry::class)->configureContainer(
+        (
+        new ContainerConfiguration(
+            'container_col_33_33_33', // CType
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_33_33.title',
+            // label
+            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_33_33.description',
+            // description
+            [
+                [
+                    [
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'colPos' => 300,
+                        'allowed' => ['CType' => 'text, textmedia']
+                    ],
+                    [
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.middle',
+                        'colPos' => 301,
+                        'allowed' => ['CType' => 'text, textmedia']
+                    ],
+                    [
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'colPos' => 302,
+                        'allowed' => ['CType' => 'text, textmedia']
+                    ]
+                ]
+            ] // grid configuration
+        )
+        )
+            // set an optional icon configuration
+            ->setIcon(SI::ICON_CONTENT_CONTAINER_COLUMNS_3)
+    );
+    // container_col_33_33_33 end
+
     // container_col_66_33 begin
     GeneralUtility::makeInstance(Registry::class)->configureContainer(
         (
@@ -21,15 +56,12 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia, teaser, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
+                        'allowed' => ['CType' => 'text, textmedia']
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
-                        'allowed' => [
-                            'CType' => 'text, textmedia, teaser, list, html, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut',
-                            'list_type' => 'cpsdownload_listselected'
-                        ]
+                        'allowed' => ['CType' => 'text, textmedia']
                     ]
                 ]
             ] // grid configuration
@@ -54,15 +86,12 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
-                        'allowed' => [
-                            'CType' => 'text, textmedia, teaser, list, html, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut',
-                            'list_type' => 'cpsdownload_listselected'
-                        ]
+                        'allowed' => ['CType' => 'text, textmedia']
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia, teaser, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
+                        'allowed' => ['CType' => 'text, textmedia']
                     ]
                 ]
             ] // grid configuration
@@ -87,12 +116,12 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia, teaser, contact, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
+                        'allowed' => ['CType' => 'text, textmedia']
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia, teaser, contact, list, html, container_accordion, denacharts_chart_area, denacharts_chart_bar, denacharts_chart_column, denacharts_chart_line, denacharts_chart_pie, denacharts_chart_doughnut']
+                        'allowed' => ['CType' => 'text, textmedia']
                     ]
                 ]
             ] // grid configuration

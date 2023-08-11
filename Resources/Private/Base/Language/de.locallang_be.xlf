@@ -99,6 +99,14 @@
 				<source>Container for Quick Facts items</source>
 				<target>Container für Quick Facts Einträge</target>
 			</trans-unit>
+			<trans-unit id="ctype.container_col_33_33_33.title">
+                <source>Container 33/33/33</source>
+                <target>Container 33/33/33</target>
+            </trans-unit>
+            <trans-unit id="ctype.container_col_33_33_33.description">
+                <source>Container for three columns 33/33/33</source>
+                <target>Container für Inhalt über drei Spalten 33/33/33</target>
+            </trans-unit>
 			<trans-unit id="ctype.container_col_66_33.title">
 				<source>Container 66/33</source>
 				<target>Container 66/33</target>
@@ -179,6 +187,10 @@
 				<source>Right column</source>
 				<target>Rechte Spalte</target>
 			</trans-unit>
+            <trans-unit id="container.content.middle">
+                <source>Middle column</source>
+                <target>Mittlere Spalte</target>
+            </trans-unit>
 			<trans-unit id="container.content.full">
 				<source>Full column</source>
 				<target>Ganze Spalte</target>
