@@ -330,7 +330,7 @@
             <trans-unit id="u_accessibility.buttonLightbox" approved="yes">
                 <source>enlarges the image</source>
             </trans-unit>
-            <trans-unit id="u_accessibility.buttonLightbox" approved="yes">
+            <trans-unit id="u_accessibility.openPageIntern" approved="yes">
                 <source>opens internal page</source>
             </trans-unit>
 			<trans-unit id="cookiebot.video.0" approved="yes">

@@ -440,7 +440,7 @@
                 <source>enlarges the image</source>
                 <target>öffnet Bild in einer vergrößerten Darstellung</target>
             </trans-unit>
-            <trans-unit id="u_accessibility.buttonLightbox" approved="yes">
+            <trans-unit id="u_accessibility.openPageIntern" approved="yes">
                 <source>opens internal page</source>
                 <target>öffnet interne Seite</target>
             </trans-unit>
