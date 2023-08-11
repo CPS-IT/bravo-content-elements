@@ -72,22 +72,39 @@ buttons:
 
 #Classes config
 classesAnchor:
-  linkInternal:
+  page:
     class: 'c-link'
     type: 'page'
-  linkDownload:
-    class: 'c-link u-icon u-icon:left u-icon--download'
-    type: 'file'
-  linkFolder:
+  folder:
     class: 'c-link'
     type: 'folder'
-  linkExternal:
+  file:
+    class: 'c-link u-icon u-icon:left u-icon--download'
+    type: 'file'
+  external:
     class: 'c-link u-icon u-icon:left u-icon--extern'
     type: 'url'
     target: '_blank'
-  linkEmail:
+  mail:
     class: 'c-link u-icon u-icon:left u-icon--email'
     type: 'mail'
+
+#  linkInternal:
+#    class: 'c-link'
+#    type: 'page'
+#  linkDownload:
+#    class: 'c-link u-icon u-icon:left u-icon--download'
+#    type: 'file'
+#  linkFolder:
+#    class: 'c-link'
+#    type: 'folder'
+#  linkExternal:
+#    class: 'c-link u-icon u-icon:left u-icon--extern'
+#    type: 'url'
+#    target: '_blank'
+#  linkEmail:
+#    class: 'c-link u-icon u-icon:left u-icon--email'
+#    type: 'mail'
 
 classes:
   c-link:
