@@ -84,7 +84,6 @@ classesAnchor:
   external:
     class: 'c-link u-icon u-icon:left u-icon--extern'
     type: 'url'
-    target: '_blank'
   mail:
     class: 'c-link u-icon u-icon:left u-icon--email'
     type: 'mail'
