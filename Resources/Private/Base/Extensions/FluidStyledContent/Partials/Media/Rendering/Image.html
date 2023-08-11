@@ -3,22 +3,18 @@
       data-namespace-typo3-fluid="true">
 <picture>
     <f:if condition="{data.imageorient} == '0' || {data.imageorient} == '8'">
-        <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
-                data-srcset="{f:uri.image(image: file, maxWidth: '1280', cropVariant: 'desktop')}"
-                media="(min-width: 700px)">
+        <source srcset="{f:uri.image(image: file, maxWidth: '1280', cropVariant: 'desktop')}"
+            media="(min-width: 700px)">
     </f:if>
-    <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
-            data-srcset="{f:uri.image(image: file, maxWidth: '640', cropVariant: 'tablet')}" media="(min-width: 370px)">
-    <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
-            data-srcset="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}">
+    <source srcset="{f:uri.image(image: file, maxWidth: '640', cropVariant: 'tablet')}"
+         media="(min-width: 370px)">
+    <source srcset="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}">
     <img class="c-img"
          loading="lazy"
-         src="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
-         data-src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
+         src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
          alt="{file.alternative}"
          width="320"
          height="180"
     >
 </picture>
-
 </html>
