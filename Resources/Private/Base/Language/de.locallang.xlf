@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" product-name="kedi_sitepackage">
+	<file source-language="en" datatype="plaintext" product-name="bravo_content_elements">
 		<header/>
 		<body>
 			<trans-unit id="accessibility_search_button" approved="yes">
@@ -436,6 +436,10 @@
 				<source>Spring back</source>
 				<target>Springe zurück</target>
 			</trans-unit>
+            <trans-unit id="u_accessibility.buttonLightbox" approved="yes">
+                <source>enlarges the image</source>
+                <target>öffnet Bild in einer vergrößerten Darstellung</target>
+            </trans-unit>
 			<trans-unit id="cookiebot.video.0" approved="yes">
 				<source>The content cannot be shown, because the marketing-cookies were denied. Click</source>
 				<target>Diese Inhalte können nicht angezeigt werden, da die Marketing-Cookies abgelehnt wurden. Klicken

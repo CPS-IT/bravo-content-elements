@@ -11,10 +11,10 @@
             data-srcset="{f:uri.image(image: file, maxWidth: '640', cropVariant: 'tablet')}" media="(min-width: 370px)">
     <source srcset="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
             data-srcset="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}">
-    <img class="c-img lazyload"
-         src="{f:cObject(typoscriptObjectPath: 'lib.emptyGif')}"
-         data-src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
-         alt="{file.alternative}" title="{file.title}"
+    <img class="c-img"
+         loading="lazy"
+         src="{f:uri.image(image: file, maxWidth: '320', cropVariant: 'mobile')}"
+         alt="{file.alternative}"
          width="320"
          height="180"
     >
