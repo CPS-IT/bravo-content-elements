@@ -29,7 +29,7 @@ TCEFORM {
     uploads_type.types.uploads.disabled = 1>
 
     CType {
-        removeItems := addToList(table,bullets,header,textpic,image)
+        removeItems := addToList(table,bullets,header,textpic,image,uploads)
         disableNoMatchingValueElement = 1
     }
 
