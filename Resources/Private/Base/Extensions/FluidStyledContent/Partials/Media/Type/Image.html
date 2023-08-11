@@ -4,7 +4,7 @@
 
     <div class="c-figure__inner">
         <f:if condition="{file.link}">
-            <f:then><f:debug>{file.link}</f:debug>
+            <f:then><f:debug>{file.link.title}</f:debug>
                 <f:link.typolink
                     parameter="{file.link}"
                     class="c-figure__link"
