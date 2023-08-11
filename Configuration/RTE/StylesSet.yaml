@@ -68,7 +68,7 @@ buttons:
       properties:
         class:
           default: 'c-link u-icon u-icon:left u-icon--email'
-   telephone:
+    telephone:
       properties:
         class:
           default: 'c-link u-icon u-icon:left u-icon--phone'
