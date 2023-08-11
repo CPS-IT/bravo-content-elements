@@ -74,8 +74,8 @@ TCEFORM {
     #addItems.30 = Im Text links, klein
     #addItems.31 = Im Text rechts, klein
     altLabels {
-        17 = In text, float right
-        18 = In text, float left
+        17 = In Text, float right
+        18 = In Text, float left
     }
   }
 
