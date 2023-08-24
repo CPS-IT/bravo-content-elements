@@ -39,12 +39,12 @@ final class Extension
     ];
     protected const ADD_PAGE_TSCONFIG = [];
     protected const ADD_RTE_PRESETS = [
-        'Default' => 'EXT:bravo_content_elements/Configuration/RTE/Default.yaml'
+        'Default' => 'EXT:bravo_content_elements/Configuration/RTE/Default.yaml',
+        'Minimal' => 'EXT:bravo_content_elements/Configuration/RTE/Minimal.yaml',
     ];
 
     protected const REGISTER_PAGE_TSCONFIG_FILES = [
         'Configuration/TsConfig/Base/Page.tsconfig' => 'Page TsConfig Base',
-        #'Configuration/TsConfig/Base/InternalPages.tsconfig' => 'Internal pages TsConfig',
     ];
 
     protected const ADD_USER_TSCONFIG = [];

@@ -9,7 +9,7 @@ editor:
 
   config:
     contentsCss:
-      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/editor.css"
+      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/default.css"
 
     ContentLanguage: "de"
 

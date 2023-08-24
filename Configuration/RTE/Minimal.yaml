@@ -10,7 +10,7 @@ imports:
 editor:
   config:
     contentsCss:
-      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/contents.css"
+      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/minimal.css"
 
     defaultContentLanguage: "de"
     defaultLanguage: "de"

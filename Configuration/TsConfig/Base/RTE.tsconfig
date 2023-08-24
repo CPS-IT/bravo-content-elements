@@ -1,9 +1,9 @@
 # default settings, other options: full, minimal or custom1
-RTE.default.preset = FrDefault
+RTE.default.preset = Default
 
 RTE.config {
     pages {
-        #intro_text.preset = FrDefault
+        #intro_text.preset = Default
     }
 
 

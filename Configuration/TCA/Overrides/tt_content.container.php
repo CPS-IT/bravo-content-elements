@@ -20,18 +20,15 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                 [
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
-                        'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 300
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.middle',
-                        'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 301
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
-                        'colPos' => 302,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 302
                     ]
                 ]
             ] // grid configuration
@@ -55,13 +52,11 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                 [
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
-                        'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 300
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
-                        'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 301
                     ]
                 ]
             ] // grid configuration
@@ -85,13 +80,11 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                 [
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
-                        'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 300
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
-                        'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 301
                     ]
                 ]
             ] // grid configuration
@@ -115,13 +108,11 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                 [
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
-                        'colPos' => 300,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 300
                     ],
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
-                        'colPos' => 301,
-                        'allowed' => ['CType' => 'text, textmedia']
+                        'colPos' => 301
                     ]
                 ]
             ] // grid configuration
