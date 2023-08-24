@@ -12,22 +12,22 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_33_33_33', // CType
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_33_33.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_33_33_33.title',
             // label
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_33_33.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_33_33_33.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.middle',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.middle',
                         'colPos' => 301
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 302
                     ]
                 ]
@@ -44,18 +44,18 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_66_33', // CType
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_66_33.title',
             // label
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_66_33.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_66_33.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301
                     ]
                 ]
@@ -72,18 +72,18 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_33_66', // CType
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_33_66.title',
             // label
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_33_66.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_33_66.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301
                     ]
                 ]
@@ -100,18 +100,18 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         (
         new ContainerConfiguration(
             'container_col_50_50', // CType
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.title',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_50_50.title',
             // label
-            'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:ctype.container_col_50_50.description',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_col_50_50.description',
             // description
             [
                 [
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.left',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.left',
                         'colPos' => 300
                     ],
                     [
-                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_be.xlf:container.content.right',
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.right',
                         'colPos' => 301
                     ]
                 ]

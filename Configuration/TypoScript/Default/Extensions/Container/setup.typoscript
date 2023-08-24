@@ -4,7 +4,7 @@ tt_content {
     container_col_33_33_33 {
         templateName = ContainerCol333333
         templateRootPaths {
-            10 = EXT:bravo_content_elements/Resources/Private/Base/Extensions/Container/Templates
+            10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
         }
 
         dataProcessing {
@@ -32,7 +32,7 @@ tt_content {
   container_col_50_50 {
     templateName = ContainerCol5050
     templateRootPaths {
-      10 = EXT:bravo_content_elements/Resources/Private/Base/Extensions/Container/Templates
+      10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
     }
 
     dataProcessing {

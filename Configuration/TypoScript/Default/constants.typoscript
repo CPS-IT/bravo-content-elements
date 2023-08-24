@@ -4,6 +4,6 @@
 
 #++++++++++++++++++++++
 # EXTENSIONS Setup
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Extensions/FluidStyledContent/constants.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/constants.typoscript'
 
 

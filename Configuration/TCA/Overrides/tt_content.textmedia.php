@@ -14,7 +14,7 @@
  * Crop variants for text and media content element
  */
 $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['assets'] = [
-    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_db.xlf:tt_content.CType.textmedia.assets',
+    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.textmedia.assets',
     'config' => [
         'maxitems' => 1,
         'overrideChildTca' => [
@@ -29,7 +29,7 @@ $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['assets'
     ]
 ];
 $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['image'] = [
-    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Base/Language/locallang_db.xlf:tt_content.video.preview.image',
+    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.video.preview.image',
     'config' => [
         'maxitems' => 1,
         'overrideChildTca' => [
