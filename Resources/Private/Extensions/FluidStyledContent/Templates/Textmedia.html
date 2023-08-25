@@ -10,11 +10,23 @@
         <div class="c-text-media__inner
         {f:render(partial: 'Media/ImageOrientation', section: 'Main', arguments:'{imageorient:data.imageorient}')}">
             <div class="c-text-media__content">
-                <f:render partial="Media/Gallery" arguments="{_all}"/>
-                <f:if condition="{data.bodytext}">
-                    <div class="c-text-media__text">
-                        <f:format.html>{data.bodytext}</f:format.html>
-                    </div>
+                <f:if condition="{data.imageorient} == 8">
+                    <f:then>
+                        <f:if condition="{data.bodytext}">
+                            <div class="c-text-media__text">
+                                <f:format.html>{data.bodytext}</f:format.html>
+                            </div>
+                        </f:if>
+                        <f:render partial="Media/Gallery" arguments="{_all}"/>
+                    </f:then>
+                    <f:else>
+                        <f:render partial="Media/Gallery" arguments="{_all}"/>
+                        <f:if condition="{data.bodytext}">
+                            <div class="c-text-media__text">
+                                <f:format.html>{data.bodytext}</f:format.html>
+                            </div>
+                        </f:if>
+                    </f:else>
                 </f:if>
             </div>
         </div>
