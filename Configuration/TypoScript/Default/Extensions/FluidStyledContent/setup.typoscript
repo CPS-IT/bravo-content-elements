@@ -3,8 +3,8 @@
 #----------------------------------------------
 
 # Notice: @import 'EXT:../contentElement.typoscript must be first (really!)
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Extensions/FluidStyledContent/contentElement.typoscript'
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Extensions/FluidStyledContent/textmedia.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/contentElement.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/textmedia.typoscript'
 
 
 

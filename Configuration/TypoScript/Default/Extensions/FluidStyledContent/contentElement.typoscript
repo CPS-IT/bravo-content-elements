@@ -1,0 +1,21 @@
+# overriding lib.contentElement to be able to inject settings to all... (custom|) content elements
+
+lib.contentElement < lib.contentElement
+lib.contentElement {
+  settings {
+    media {
+      additionalConfig {
+        frVideoRenderer {
+          youTube.srcAttribute = data-cookieblock-src
+          vimeo.srcAttribute = data-cookieblock-src
+        }
+
+        autoplay = 1
+        no-cookie = 0
+        data {
+          cookieconsent = marketing
+        }
+      }
+    }
+  }
+}
