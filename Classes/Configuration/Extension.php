@@ -39,8 +39,8 @@ final class Extension
     ];
     protected const ADD_PAGE_TSCONFIG = [];
     protected const ADD_RTE_PRESETS = [
-        'Default' => 'EXT:bravo_content_elements/Configuration/RTE/Default.yaml',
-        'Minimal' => 'EXT:bravo_content_elements/Configuration/RTE/Minimal.yaml',
+        'CeDefault' => 'EXT:bravo_content_elements/Configuration/RTE/Default.yaml',
+        'CeMinimal' => 'EXT:bravo_content_elements/Configuration/RTE/Minimal.yaml',
     ];
 
     protected const REGISTER_PAGE_TSCONFIG_FILES = [

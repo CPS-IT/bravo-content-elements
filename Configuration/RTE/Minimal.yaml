@@ -4,7 +4,7 @@ imports:
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
   - { resource: "EXT:rte_ckeditor/Configuration/RTE/Minimal.yaml" }
-  - { resource: "EXT:bravo_content_elements/Configuration/TSConfig/Default/Rte/StylesSet.yaml" }
+  - { resource: "EXT:bravo_content_elements/Configuration/RTE/StylesSet.yaml" }
 
 # Minimal configuration for the editor
 editor:
