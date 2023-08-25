@@ -11,5 +11,5 @@
 
 #++++++++++++++++++++++
 # EXTENSIONS Setup
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Extensions/FluidStyledContent/setup.typoscript'
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Extensions/Container/setup.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/setup.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/Container/setup.typoscript'
