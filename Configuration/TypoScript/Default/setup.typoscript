@@ -4,10 +4,10 @@
 
 #++++++++++++++++++++++
 # other libs
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/libContent.typoscript'
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/libParseFuncRTE.typoscript'
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/lib.stringReplace.typoscript'
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Base/Lib/lib.pageTitle.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libContent.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libParseFuncRTE.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.stringReplace.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.pageTitle.typoscript'
 
 #++++++++++++++++++++++
 # EXTENSIONS Setup
