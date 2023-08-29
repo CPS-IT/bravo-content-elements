@@ -18,6 +18,7 @@ editor:
         - { name: "Button main", element: "a", classes: ['c-button', 'c-button--main'] }
         - { name: "Button second", element: "a", classes: ['c-button', 'c-button--second'] }
 
+#Welche Klassen werden im Link Wizard bei den verschiedenen Link Tyoen angezeigt
 classesAnchor:
   page:
     class: 'c-link'
@@ -39,12 +40,14 @@ classesAnchor:
     class: 'c-link u-icon u-icon:left u-icon--phone'
     type: 'telephone'
 
+#Welche Klassen dürfen im Link wizard oder im RTE vergeben werden und werden nicht weggeparst 
 buttons:
   link:
     properties:
       class:
-        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone'
+        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone, c-button--main, c-button--second'
 
+#Benennung der Klassen im Link Wizard
 classes:
   c-link:
     name: 'Link ohne Pfeil'
@@ -56,3 +59,7 @@ classes:
     name: 'Link extern'
   c-link u-icon u-icon:left u-icon--phone:
     name: 'Link Telefon'
+  c-button--main:
+    name: 'Button main'
+  c-button--second:
+    name: 'Button second'
