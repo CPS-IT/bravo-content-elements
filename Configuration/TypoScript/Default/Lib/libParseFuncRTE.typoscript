@@ -3,7 +3,7 @@
 #----------------------------------------------
 
 lib.parseFunc_RTE {
-  externalBlocks := addToList(h2,h3,h4)
+  externalBlocks := addToList(h2,h3,h4,ol,ul,a)
   externalBlocks {
     h2 {
       stripNL = 1
@@ -61,9 +61,9 @@ lib.parseFunc_RTE {
         HTMLparser = 1
         HTMLparser {
           tags.ol.fixAttrib.class {
-            default = c-list c-list--ordered
+            default = c-list
             always = 1
-            list = c-list c-list--ordered
+            list = c-list
           }
 
           keepNonMatchedTags = 1
@@ -76,9 +76,9 @@ lib.parseFunc_RTE {
         HTMLparser = 1
         HTMLparser {
           tags.ul.fixAttrib.class {
-            default = c-list c-list--unordered
+            default = c-list
             always = 1
-            list = c-list c-list--unordered
+            list = c-list
           }
 
           keepNonMatchedTags = 1
@@ -86,13 +86,17 @@ lib.parseFunc_RTE {
       }
     }
 
-    table {
+    a {
       stdWrap {
+        HTMLparser = 1
         HTMLparser {
-          tags.table.fixAttrib.class {
-            default = c-table-list
-            list = c-table-list, c-table, tablesaw, tablesaw-stack
+          tags.a.fixAttrib.class {
+            default = c-link
+            always = 0
+            allowedAttribs = class
           }
+
+          keepNonMatchedTags = 0
         }
       }
     }
