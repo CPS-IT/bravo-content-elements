@@ -3,7 +3,7 @@
 #----------------------------------------------
 
 lib.parseFunc_RTE {
-  externalBlocks := addToList(h2,h3,h4,ol,ul,a)
+  externalBlocks := addToList(h2,h3,h4,ol,ul)
   externalBlocks {
     h2 {
       stripNL = 1
@@ -86,20 +86,6 @@ lib.parseFunc_RTE {
       }
     }
 
-    a {
-      stdWrap {
-        HTMLparser = 1
-        HTMLparser {
-          tags.a.fixAttrib.class {
-            default = c-link
-            always = 0
-            allowedAttribs = class
-          }
-
-          keepNonMatchedTags = 0
-        }
-      }
-    }
   }
 
   nonTypoTagStdWrap {
