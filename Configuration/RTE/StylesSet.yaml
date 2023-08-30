@@ -3,109 +3,26 @@
 editor:
 
   config:
-    heading:
-      options:
-        - { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph'},
-        - { model: "headingh2custom", view: { name: 'h2', classes: 'u-typo:xxl u-typo:bold' } , title: "h2", class: 'ck-heading_heading2_h2custom', converterPriority: "high"}
-        - { model: "headingh3custom", view: { name: 'h3', classes: 'u-typo:xl u-typo:bold' } , title: "h3", class: 'ck-heading_heading3_h3custom', converterPriority: "high"}
-        - { model: "headingh4custom", view: { name: 'h4', classes: 'u-typo:l u-typo:bold' } , title: "h4", class: 'ck-heading_heading4_h4custom', converterPriority: "high"}
+#    heading:
+#      options:
+#        - { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph'},
+#        - { model: "headingh2custom", view: { name: 'h2', classes: 'u-typo:xxl u-typo:bold' } , title: "h2", class: 'ck-heading_heading2_h2custom', converterPriority: "high"}
+#        - { model: "headingh3custom", view: { name: 'h3', classes: 'u-typo:xl u-typo:bold' } , title: "h3", class: 'ck-heading_heading3_h3custom', converterPriority: "high"}
+#        - { model: "headingh4custom", view: { name: 'h4', classes: 'u-typo:l u-typo:bold' } , title: "h4", class: 'ck-heading_heading4_h4custom', converterPriority: "high"}
 
     # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
     style:
       definitions:
 
         # block level styles
-        - { name: "H2 Überschrift", element: "h2", classes: [ 'u-typo:xxl', 'u-typo:bold2' ] }
-        - { name: "H3 Überschrift", element: "h3", classes: [ 'u-typo:xl', 'u-typo:bold2' ] }
+        - { name: "H2 Überschrift", element: "h2", classes: [ 'u-typo:xxl', 'u-typo:bold' ] }
+        - { name: "H3 Überschrift", element: "h3", classes: [ 'u-typo:xl', 'u-typo:bold' ] }
         - { name: "H4 Überschrift", element: "h4", classes: [ 'u-typo:l', 'u-typo:bold' ] }
 
         # Links
-#        - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
-#        - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
-#        - { name: "Link ohne Pfeil", element: "a", classes: [ 'c-link' ] }
-#        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--download' ] }
-#        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--email' ] }
-#        - { name: "Link extern", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--extern' ] }
-#        - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--phone' ] }
-
-
-#Classes config
-classesAnchor:
-  page:
-    class: 'c-link'
-    type: 'page'
-  folder:
-    class: 'c-link'
-    type: 'folder'
-  file:
-    class: 'c-link js-editor u-icon u-icon:left u-icon--download'
-    type: 'file'
-  external:
-    class: 'c-link js-editor u-icon u-icon:left u-icon--extern'
-    type: 'url'
-    target: '_blank'
-  mail:
-    class: 'c-link js-editor u-icon u-icon:left u-icon--email'
-    type: 'mail'
-  telephone:
-    class: 'c-link js-editor u-icon u-icon:left u-icon--phone'
-    type: 'telephone'
-
-##Button config and defaults
-buttons:
-  table:
-    info:
-      enabled: false
-  link:
-    relAttribute:
-      enabled: true
-    targetSelector:
-      enabled: true
-    properties:
-      class:
-        allowedClasses: 'c-link, c-link js-editor u-icon u-icon:left u-icon--download, c-link js-editor u-icon u-icon:left u-icon--email, c-link js-editor u-icon u-icon:left u-icon--extern, c-link js-editor u-icon u-icon:left u-icon--phone, c-button c-button--main, c-button c-button--second'
-      title:
-        readOnly: false
-    page:
-      properties:
-        class:
-          default: 'c-link'
-    file:
-      properties:
-        class:
-          default: 'c-link js-editor u-icon u-icon:left u-icon--download'
-    folder:
-      properties:
-        class:
-          default: 'c-link'
-    url:
-      properties:
-        class:
-          default: 'c-link js-editor u-icon u-icon:left u-icon--extern'
-    mail:
-      properties:
-        class:
-          default: 'c-link js-editor u-icon u-icon:left u-icon--email'
-    telephone:
-      telephone:
-        properties:
-          class:
-            default: 'c-link js-editor u-icon u-icon:left u-icon--phone'
-
-
-
-classes:
-  c-link:
-    name: 'Link ohne Pfeil'
-  c-link js-editor u-icon u-icon:left u-icon--download:
-    name: 'Link Download'
-  c-link js-editor u-icon u-icon:left u-icon--email:
-    name: 'Link E-Mail'
-  c-link js-editor u-icon u-icon:left u-icon--extern:
-    name: 'Link extern'
-  c-link js-editor u-icon u-icon:left u-icon--phone:
-    name: 'Link Telefon'
-  c-button c-button--main:
-    name: 'Button Main'
-  c-button c-button--second:
-    name: 'Button Second'
+        - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
+        - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
+        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--download' ] }
+        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--email' ] }
+        - { name: "Link extern", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--extern' ] }
+        - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--phone' ] }
