@@ -20,8 +20,8 @@ editor:
         - { name: "H4 Überschrift", element: "h4", classes: [ 'u-typo:l', 'u-typo:bold' ] }
 
         # Links
-        - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
-        - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
+#        - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
+#        - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
 #        - { name: "Link ohne Pfeil", element: "a", classes: [ 'c-link' ] }
 #        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--download' ] }
 #        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--email' ] }
@@ -38,17 +38,17 @@ classesAnchor:
     class: 'c-link'
     type: 'folder'
   file:
-    class: 'c-link u-icon u-icon:left u-icon--download'
+    class: 'c-link js-editor u-icon u-icon:left u-icon--download'
     type: 'file'
   external:
-    class: 'c-link u-icon u-icon:left u-icon--extern'
+    class: 'c-link js-editor u-icon u-icon:left u-icon--extern'
     type: 'url'
     target: '_blank'
   mail:
-    class: 'c-link u-icon u-icon:left u-icon--email'
+    class: 'c-link js-editor u-icon u-icon:left u-icon--email'
     type: 'mail'
   telephone:
-    class: 'c-link u-icon u-icon:left u-icon--phone'
+    class: 'c-link js-editor u-icon u-icon:left u-icon--phone'
     type: 'telephone'
 
 ##Button config and defaults
@@ -63,7 +63,7 @@ buttons:
       enabled: true
     properties:
       class:
-        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone, c-button c-button--main, c-button c-button--second'
+        allowedClasses: 'c-link, c-link js-editor u-icon u-icon:left u-icon--download, c-link js-editor u-icon u-icon:left u-icon--email, c-link js-editor u-icon u-icon:left u-icon--extern, c-link js-editor u-icon u-icon:left u-icon--phone, c-button c-button--main, c-button c-button--second'
       title:
         readOnly: false
     page:
@@ -73,7 +73,7 @@ buttons:
     file:
       properties:
         class:
-          default: 'c-link u-icon u-icon:left u-icon--download'
+          default: 'c-link js-editor u-icon u-icon:left u-icon--download'
     folder:
       properties:
         class:
@@ -81,29 +81,29 @@ buttons:
     url:
       properties:
         class:
-          default: 'c-link u-icon u-icon:left u-icon--extern'
+          default: 'c-link js-editor u-icon u-icon:left u-icon--extern'
     mail:
       properties:
         class:
-          default: 'c-link u-icon u-icon:left u-icon--email'
+          default: 'c-link js-editor u-icon u-icon:left u-icon--email'
     telephone:
       telephone:
         properties:
           class:
-            default: 'c-link u-icon u-icon:left u-icon--phone'
+            default: 'c-link js-editor u-icon u-icon:left u-icon--phone'
 
 
 
 classes:
   c-link:
     name: 'Link ohne Pfeil'
-  c-link u-icon u-icon:left u-icon--download:
+  c-link js-editor u-icon u-icon:left u-icon--download:
     name: 'Link Download'
-  c-link u-icon u-icon:left u-icon--email:
+  c-link js-editor u-icon u-icon:left u-icon--email:
     name: 'Link E-Mail'
-  c-link u-icon u-icon:left u-icon--extern:
+  c-link js-editor u-icon u-icon:left u-icon--extern:
     name: 'Link extern'
-  c-link u-icon u-icon:left u-icon--phone:
+  c-link js-editor u-icon u-icon:left u-icon--phone:
     name: 'Link Telefon'
   c-button c-button--main:
     name: 'Button Main'
