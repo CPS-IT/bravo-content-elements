@@ -27,10 +27,10 @@ editor:
         - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
         - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
         - { name: "Link ohne Pfeil", element: "a", classes: [ 'c-link' ] }
-        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon-left', 'u-icon--download' ] }
-        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon-left', 'u-icon--email' ] }
-        - { name: "Link extern", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon-left', 'u-icon--extern' ] }
-        - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon-left', 'u-icon--phone' ] }
+        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--download' ] }
+        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--email' ] }
+        - { name: "Link extern", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--extern' ] }
+        - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--phone' ] }
 
 
 ##Button config and defaults
