@@ -33,6 +33,28 @@ editor:
         - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--phone' ] }
 
 
+#Classes config
+classesAnchor:
+  page:
+    class: 'c-link'
+    type: 'page'
+  folder:
+    class: 'c-link'
+    type: 'folder'
+  file:
+    class: 'c-link u-icon u-icon:left u-icon--download'
+    type: 'file'
+  external:
+    class: 'c-link u-icon u-icon:left u-icon--extern'
+    type: 'url'
+    target: '_blank'
+  mail:
+    class: 'c-link u-icon u-icon:left u-icon--email'
+    type: 'mail'
+  telephone:
+    class: 'c-link u-icon u-icon:left u-icon--phone'
+    type: 'telephone'
+
 ##Button config and defaults
 buttons:
   table:
@@ -45,7 +67,7 @@ buttons:
       enabled: true
     properties:
       class:
-        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone, c-button--main, c-button--second'
+        allowedClasses: 'c-link, c-link u-icon u-icon:left u-icon--download, c-link u-icon u-icon:left u-icon--email, c-link u-icon u-icon:left u-icon--extern, c-link u-icon u-icon:left u-icon--phone, c-button c-button--main, c-button c-button--second'
       title:
         readOnly: false
     page:
@@ -76,29 +98,6 @@ buttons:
 
 
 
-
-#Classes config
-classesAnchor:
-  page:
-    class: 'c-link'
-    type: 'page'
-  folder:
-    class: 'c-link'
-    type: 'folder'
-  file:
-    class: 'c-link u-icon u-icon:left u-icon--download'
-    type: 'file'
-  external:
-    class: 'c-link u-icon u-icon:left u-icon--extern'
-    type: 'url'
-    target: '_blank'
-  mail:
-    class: 'c-link u-icon u-icon:left u-icon--email'
-    type: 'mail'
-  telephone:
-    class: 'c-link u-icon u-icon:left u-icon--phone'
-    type: 'telephone'
-
 classes:
   c-link:
     name: 'Link ohne Pfeil'
@@ -110,7 +109,7 @@ classes:
     name: 'Link extern'
   c-link u-icon u-icon:left u-icon--phone:
     name: 'Link Telefon'
-  c-button--main:
+  c-button c-button--main:
     name: 'Button Main'
-  c-button--second:
+  c-button c-button--second:
     name: 'Button Second'
