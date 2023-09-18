@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext"
+		  original="EXT:bravo_content_elements/Resources/Private/Language/de.locallang_db.xlf">
+		<body>
+			<trans-unit id="tt_content.CType.textmedia.assets">
+				<source>Media elements (min Size 840x560 px)</source>
+				<target>Medienelemente (min Größe 840x560 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.video.preview.image">
+				<source>Video preview image (min Size 840x560 px)</source>
+				<target>Video-Vorschaubild (min Größe 840x560 px)</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

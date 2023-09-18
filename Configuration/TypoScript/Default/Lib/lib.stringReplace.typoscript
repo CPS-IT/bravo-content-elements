@@ -1,0 +1,16 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# String replace lib to use un Fluid
+# Usage in fluid templates:
+# <f:cObject typoscriptObjectPath="lib.stringReplaceRegExp" data="{value:'string', search:'/RegExp/', replace:'string', useRegExp:'0'}" />
+
+lib.stringReplaceRegExp = TEXT
+lib.stringReplaceRegExp {
+  field = value
+  stdWrap.replacement {
+    10 {
+      search.field = search
+      replace.field = replace
+      useRegExp.field = useRegExp
+    }
+  }
+}

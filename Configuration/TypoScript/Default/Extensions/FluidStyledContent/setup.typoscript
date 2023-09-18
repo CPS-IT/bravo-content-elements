@@ -1,0 +1,11 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Custom content elements configuration
+# Notice: @import 'EXT:../contentElement.typoscript must be first
+
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/contentElement.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/textmedia.typoscript'
+
+
+
+
+

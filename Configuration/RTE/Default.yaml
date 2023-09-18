@@ -1,0 +1,33 @@
+# Load default processing options
+imports:
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+  - { resource: "EXT:bravo_content_elements/Configuration/RTE/StylesSet.yaml" }
+
+editor:
+
+  config:
+    contentsCss:
+      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/editor.css"
+
+    ContentLanguage: "de"
+
+    toolbar:
+      items:
+        - style
+        - heading
+        # grouping separator
+        - '|'
+        - bold
+        - '|'
+        - bulletedList
+        - numberedList
+        - '|'
+        - link
+        - '|'
+        - removeFormat
+        - undo
+        - redo
+        - '|'
+        - sourceEditing

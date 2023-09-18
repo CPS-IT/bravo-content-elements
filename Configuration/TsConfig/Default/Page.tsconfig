@@ -1,0 +1,7 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# BE configuration
+
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Default/RTE.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Default/TCEFORM.tsconfig'
+@import 'EXT:bravo_content_elements/Configuration/TsConfig/Default/TCEMAIN.tsconfig'
+

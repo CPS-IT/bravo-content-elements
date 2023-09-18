@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext"
+		  original="EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf">
+		<body>
+			<trans-unit id="ctype.container_col_33_33_33.title">
+				<source>Container 33/33/33</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_33_33_33.description">
+				<source>Container for three columns 33/33/33</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_66_33.title">
+				<source>Container 66/33</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_66_33.description">
+				<source>Container for two columns 66/33</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_33_66.title">
+				<source>Container 33/66</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_33_66.description">
+				<source>Container for two columns 33/66</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_50_50.title">
+				<source>Container 50/50</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_50_50.description">
+				<source>Container for two columns 50/50</source>
+			</trans-unit>
+			<trans-unit id="container.content.left">
+				<source>Left column</source>
+			</trans-unit>
+			<trans-unit id="container.content.right">
+				<source>Right column</source>
+			</trans-unit>
+			<trans-unit id="container.content.middle">
+				<source>Middle column</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

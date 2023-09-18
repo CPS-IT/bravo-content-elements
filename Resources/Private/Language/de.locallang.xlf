@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext"
+		  original="EXT:bravo_content_elements/Resources/Private/Language/de.locallang.xlf">
+		<body>
+			<trans-unit id="load.video.content" approved="yes">
+				<source>Click on the button to load the content.</source>
+				<target>Klicken Sie auf den Button, um den Inhalt nachzuladen.</target>
+			</trans-unit>
+			<trans-unit id="load.video.button" approved="yes">
+				<source>Start video</source>
+				<target>Video starten</target>
+			</trans-unit>
+			<trans-unit id="enable.js.to.load.external.content" approved="yes">
+				<source>Enable javascript to load external content.</source>
+				<target>Aktivieren Sie Javascript, um externe Inhalte zu laden.</target>
+			</trans-unit>
+			<trans-unit id="u_accessibility.buttonLightbox" approved="yes">
+				<source>enlarges the image</source>
+				<target>öffnet Bild in einer vergrößerten Darstellung</target>
+			</trans-unit>
+			<trans-unit id="u_accessibility.openPageIntern" approved="yes">
+				<source>opens internal page</source>
+				<target>öffnet interne Seite</target>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.0" approved="yes">
+				<source>The content cannot be shown, because the marketing-cookies were denied. Click</source>
+				<target>Diese Inhalte können nicht angezeigt werden, da die Marketing-Cookies abgelehnt wurden. Klicken
+					Sie
+				</target>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.1" approved="yes">
+				<source>here</source>
+				<target>hier</target>
+			</trans-unit>
+			<trans-unit id="cookiebot.video.2" approved="yes">
+				<source>, for accepting the cookies and show the content!</source>
+				<target>, um die Cookies zu akzeptieren und den Inhalt anzuzeigen!</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

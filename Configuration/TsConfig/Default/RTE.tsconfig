@@ -1,0 +1,4 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# RTE configuration
+
+RTE.default.preset = CeDefault

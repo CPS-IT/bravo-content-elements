@@ -1,0 +1,7 @@
+#++++++++++++++++++++++
+# EXTENSIONS Static files alternative zu Includes in Backend
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+#++++++++++++++++++++++
+# EXTENSIONS Setup
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/constants.typoscript'

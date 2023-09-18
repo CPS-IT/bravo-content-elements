@@ -1,0 +1,24 @@
+{
+  "name": "cpsit/bravo-content-elements",
+  "description": "Basic content elements for TYPO3 projects.",
+  "homepage": "https://github.com/CPS-IT/bravo-content-elements",
+  "license": "GPL-2.0-or-later",
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms-core": "^12.4",
+    "b13/container": "^2.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bravo_content_elements"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Cpsit\\BravoContentElements\\": "Classes"
+    }
+  }
+}

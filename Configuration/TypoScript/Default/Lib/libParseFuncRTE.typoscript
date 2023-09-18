@@ -1,0 +1,95 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# RTE parse functions
+
+lib.parseFunc_RTE {
+  externalBlocks := addToList(h2,h3,h4,ol,ul)
+  externalBlocks {
+    h2 {
+      stripNL = 1
+      stdWrap {
+        parseFunc =< lib.parseFunc
+        HTMLparser = 1
+        HTMLparser {
+          tags.h2.fixAttrib.class {
+            default = u-typo:xl u-typo:bold
+            always = 1
+            allowedAttribs = class
+          }
+
+          keepNonMatchedTags = 1
+        }
+      }
+    }
+
+    h3 {
+      stripNL = 1
+      stdWrap {
+        parseFunc =< lib.parseFunc
+        HTMLparser = 1
+        HTMLparser {
+          tags.h3.fixAttrib.class {
+            default = u-typo:l u-typo:bold
+            always = 1
+            allowedAttribs = class
+          }
+
+          keepNonMatchedTags = 1
+        }
+      }
+    }
+
+    h4 {
+      stripNL = 1
+      stdWrap {
+        parseFunc =< lib.parseFunc
+        HTMLparser = 1
+        HTMLparser {
+          tags.h4.fixAttrib.class {
+            default = u-typo:m u-typo:bold
+            always = 1
+            allowedAttribs = class
+          }
+
+          keepNonMatchedTags = 1
+        }
+      }
+    }
+
+    ol {
+      stdWrap {
+        HTMLparser = 1
+        HTMLparser {
+          tags.ol.fixAttrib.class {
+            default = c-list
+            always = 1
+            list = c-list
+          }
+
+          keepNonMatchedTags = 1
+        }
+      }
+    }
+
+    ul {
+      stdWrap {
+        HTMLparser = 1
+        HTMLparser {
+          tags.ul.fixAttrib.class {
+            default = c-list
+            always = 1
+            list = c-list
+          }
+
+          keepNonMatchedTags = 1
+        }
+      }
+    }
+
+  }
+
+  nonTypoTagStdWrap {
+    encapsLines {
+      encapsTagList := addToList(s,u)
+    }
+  }
+}

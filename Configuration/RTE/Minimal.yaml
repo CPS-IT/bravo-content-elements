@@ -1,0 +1,25 @@
+# minimal p, links,
+imports:
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Minimal.yaml" }
+  - { resource: "EXT:bravo_content_elements/Configuration/RTE/StylesSet.yaml" }
+
+# Minimal configuration for the editor
+editor:
+  config:
+    contentsCss:
+      - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/minimal.css"
+
+    defaultContentLanguage: "de"
+    defaultLanguage: "de"
+
+    extraAllowedContent: ''
+    format_tags: "p;h3;h4;pre"
+    toolbarGroups:
+      - { name: links, groups: [ links ] }
+      - { name: styles, groups: [ styles ] }
+      - { name: basicstyles, groups: [ basicstyles, cleanup] }
+      - { name: clipboard, groups: [clipboard, undo] }
+      - { name: paragraph, groups: [ list ] }

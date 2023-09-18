@@ -1,0 +1,22 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Fluid style content configuration
+
+styles {
+  templates {
+    templateRootPath = EXT:bravo_content_elements/Resources/Private/Extensions/FluidStyledContent/Templates/
+    partialRootPath = EXT:bravo_content_elements/Resources/Private/Extensions/FluidStyledContent/Partials/
+    layoutRootPath = EXT:bravo_content_elements/Resources/Private/Extensions/FluidStyledContent/Layouts/
+  }
+
+  defaultHeaderType = 2
+
+  content {
+    textmedia {
+      maxW = 1190
+      maxWInText = 595
+      linkWrap.lightboxEnabled = 1
+    }
+
+    defaultHeaderType = 2
+  }
+}

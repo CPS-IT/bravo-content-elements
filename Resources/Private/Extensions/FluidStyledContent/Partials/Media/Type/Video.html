@@ -1,0 +1,50 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="c-media js-media">
+    <div class="c-media__content">
+        <div class="c-media__image">
+            <f:if condition="{previewImage}">
+                <f:then>
+                    <f:render partial="Media/Type/Image"
+                              arguments="{file: previewImage.0, dimensions: dimensions, data: data, settings: settings, previewImage:previewImage}"/>
+                </f:then>
+            </f:if>
+        </div>
+        <f:if condition="{file.properties.extension} == 'youtube' || {file.properties.extension} == 'vimeo'">
+            <f:then>
+                <div class="c-media__text cookieconsent-optout-marketing">
+                    <p>
+                        {f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.0')}
+                        <a href="javascript:Cookiebot.renew()">{f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.1')}</a>
+                        {f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.2')}
+                    </p>
+                </div>
+                <button class="c-button js-media-trigger cookieconsent-optin-marketing" type="button"
+                        id="video-{data.pid}-{data.uid}-{file.uid}">
+                    <span class="u-accessibility">{f:translate(extensionName: 'BravoContentElements', key: 'load.video.button')}</span>
+                    <i class="o-icon-font o-icon-font--play" aria-hidden="true"></i>
+                </button>
+            </f:then>
+            <f:else>
+                <button class="c-media__button" type="button" id="video-{data.uid}-{file.uid}">
+                    <span class="u-accessibility">{f:translate(extensionName: 'BravoContentElements', key: 'load.video.button')}</span>
+                    <span class="c-button-icon-only c-button--main" aria-hidden="true">
+                <i class="o-icon-font o-icon-font--arrow-right" aria-hidden="true"></i>
+            </span>
+                </button>
+            </f:else>
+        </f:if>
+    </div>
+    <div class="c-iframe-video">
+        <f:render partial="Media/Rendering/Video"
+                  arguments="{file: file, dimensions: dimensions, settings: settings}"/>
+    </div>
+    <f:if condition="{file.description}">
+        <div class="c-media__figcaption">
+            {file.description}
+        </div>
+    </f:if>
+    <noscript>
+        {f:translate(extensionName: 'BravoContentElements', key: 'enable.js.to.load.external.content')}
+    </noscript>
+</div>
+</html>

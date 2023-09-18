@@ -1,0 +1,15 @@
+#++++++++++++++++++++++
+# EXTENSIONS Static files
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+
+#++++++++++++++++++++++
+# other libs
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libContent.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libParseFuncRTE.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.stringReplace.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.pageTitle.typoscript'
+
+#++++++++++++++++++++++
+# EXTENSIONS Setup
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/setup.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/Container/setup.typoscript'

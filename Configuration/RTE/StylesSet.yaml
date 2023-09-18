@@ -1,0 +1,28 @@
+# Load stylesSets
+
+editor:
+
+  config:
+
+    heading:
+      options:
+        - { model: 'paragraph', title: 'Paragraph' }
+        - { model: 'heading2', view: 'h2', title: 'Heading 2' }
+        - { model: 'heading3', view: 'h3', title: 'Heading 3' }
+        - { model: 'heading4', view: 'h4', title: 'Heading 4' }
+
+    style:
+      definitions:
+
+        # block level styles
+        - { name: "H2 Überschrift", element: "h2", classes: [ 'u-typo:xxl', 'u-typo:bold' ] }
+        - { name: "H3 Überschrift", element: "h3", classes: [ 'u-typo:xl', 'u-typo:bold' ] }
+        - { name: "H4 Überschrift", element: "h4", classes: [ 'u-typo:l', 'u-typo:bold' ] }
+
+        # Links
+        - { name: "Button main", element: "a", classes: [ 'c-button', 'c-button--main' ] }
+        - { name: "Button second", element: "a", classes: [ 'c-button', 'c-button--second' ] }
+        - { name: "Link Download", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--download' ] }
+        - { name: "Link E-Mail", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--email' ] }
+        - { name: "Link extern", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--extern' ] }
+        - { name: "Link Telefon", element: "a", classes: [ 'c-link', 'js-editor', 'u-icon', 'u-icon:left', 'u-icon--phone' ] }
