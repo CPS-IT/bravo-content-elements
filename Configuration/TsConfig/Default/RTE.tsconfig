@@ -1,11 +1,4 @@
-# default settings, other options: full, minimal or custom1
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# RTE configuration
+
 RTE.default.preset = CeDefault
-
-RTE.config {
-    pages {
-        #intro_text.preset = Default
-    }
-
-
-}
-

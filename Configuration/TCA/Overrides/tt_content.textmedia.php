@@ -1,4 +1,6 @@
 <?php
+defined('TYPO3') or die('Access denied.');
+
 /*
  * Enabled image field in Text and media content element.
  * used for the preview image in videos

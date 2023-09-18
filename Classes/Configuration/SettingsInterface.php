@@ -19,10 +19,4 @@ interface SettingsInterface
     public const NAME = 'BravoContentElements';
     public const KEY = 'bravo_content_elements';
     public const VENDOR_NAME = 'Cpsit';
-    public const ICON_CONTENT_CONTAINER_COLUMNS_2 = 'content-container-columns-2';
-    public const ICON_CONTENT_CONTAINER_COLUMNS_2_LEFT = 'content-container-columns-2-left';
-    public const ICON_CONTENT_CONTAINER_COLUMNS_2_RIGHT = 'content-container-columns-2-right';
-    public const ICON_CONTENT_CONTAINER_COLUMNS_3 = 'content-container-columns-3';
-    public const ICON_CONTENT_CONTAINER_COLUMNS_4 = 'content-container-columns-4';
-
 }

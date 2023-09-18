@@ -16,7 +16,6 @@ use Cpsit\BravoContentElements\Configuration\SettingsInterface as SI;
 use RecursiveDirectoryIterator;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-
 /**
  * Extension
  *
@@ -24,20 +23,6 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
  */
 final class Extension
 {
-    /**
-     * SVG icons to register
-     */
-    /**
-     * SVG icons to register
-     */
-    protected const SVG_ICONS_TO_REGISTER = [
-        SI::ICON_CONTENT_CONTAINER_COLUMNS_2 => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-2.svg',
-        SI::ICON_CONTENT_CONTAINER_COLUMNS_2_LEFT => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-2-left.svg',
-        SI::ICON_CONTENT_CONTAINER_COLUMNS_2_RIGHT => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-2-right.svg',
-        SI::ICON_CONTENT_CONTAINER_COLUMNS_3 => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-3.svg',
-        SI::ICON_CONTENT_CONTAINER_COLUMNS_4 => 'EXT:bravo_content_elements/Resources/Public/Backend/Icons/content-container-columns-4.svg',
-    ];
-    protected const ADD_PAGE_TSCONFIG = [];
     protected const ADD_RTE_PRESETS = [
         'CeDefault' => 'EXT:bravo_content_elements/Configuration/RTE/Default.yaml',
         'CeMinimal' => 'EXT:bravo_content_elements/Configuration/RTE/Minimal.yaml',
@@ -78,16 +63,6 @@ final class Extension
     {
         foreach (self::REGISTER_PAGE_TSCONFIG_FILES as $TsConfigFile => $label) {
             ExtensionManagementUtility::registerPageTSConfigFile(SI::KEY, $TsConfigFile, $label);
-        }
-    }
-
-    /**
-     * Add page TSconfig content
-     */
-    public static function addPageTSconfig(): void
-    {
-        foreach (self::ADD_PAGE_TSCONFIG as $TSconfig) {
-            ExtensionManagementUtility::addPageTSConfig($TSconfig);
         }
     }
 
