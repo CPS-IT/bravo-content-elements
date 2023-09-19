@@ -3,8 +3,7 @@
 @import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
 #++++++++++++++++++++++
-# other libs
-@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libContent.typoscript'
+# Help typoscript libs
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/libParseFuncRTE.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.stringReplace.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Lib/lib.pageTitle.typoscript'
