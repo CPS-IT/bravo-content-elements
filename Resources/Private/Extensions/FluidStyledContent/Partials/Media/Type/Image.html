@@ -1,5 +1,4 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-{f:variable(name: 'languageFilePath', value:'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang.xlf:')}
 <figure class="c-figure">
     <div class="c-figure__inner">
         <f:if condition="{file.link}">
@@ -11,7 +10,7 @@
                     <f:render partial="Media/Rendering/Image"
                               arguments="{file: file, dimensions: dimensions, settings: settings, CType:data.CType}"/>
                     <span class="u-accessibility">
-                        {f:translate(key:'{languageFilePath}u_accessibility.openPageIntern')} {f:cObject(typoscriptObjectPath: 'lib.pageTitle', data: file.link)}
+                        {f:translate(extensionName: 'BravoContentElements', key: 'u_accessibility.openPageIntern')} {f:cObject(typoscriptObjectPath: 'lib.pageTitle', data: file.link)}
                     </span>
                 </f:link.typolink>
                 <f:if condition="{file.properties.copyright}">
@@ -32,7 +31,7 @@
                             <f:render partial="Media/Rendering/Image"
                                       arguments="{file: file, dimensions: dimensions, settings: settings, CType:data.CType, data:data}"/>
                             <span class="u-accessibility">
-                                {f:translate(key:'{languageFilePath}u_accessibility.buttonLightbox')}
+                                {f:translate(extensionName: 'BravoContentElements', key: 'u_accessibility.buttonLightbox')}
                             </span>
                         </button>
                         <f:if condition="{file.properties.copyright}">

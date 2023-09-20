@@ -1,4 +1,5 @@
-# Textmedia:
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Textmedia
 # Custom configuration textmedia element.
 # Enable image field in text media element
 # CType: textmedia
@@ -9,7 +10,6 @@ tt_content.textmedia {
       references {
         fieldName = image
       }
-
       as = previewImage
     }
   }

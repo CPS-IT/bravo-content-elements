@@ -1,32 +1,33 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Container grids configuration
 tt_content {
-
-    container_col_33_33_33 < lib.contentElement
-    container_col_33_33_33 {
-        templateName = ContainerCol333333
-        templateRootPaths {
-            10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
-        }
-
-        dataProcessing {
-            300 = B13\Container\DataProcessing\ContainerProcessor
-            300 {
-            colPos = 300
-            as = children_300
-            }
-
-            301 = B13\Container\DataProcessing\ContainerProcessor
-            301 {
-            colPos = 301
-            as = children_301
-            }
-
-            302 = B13\Container\DataProcessing\ContainerProcessor
-            302 {
-              colPos = 302
-              as = children_302
-            }
-        }
+  container_col_33_33_33 < lib.contentElement
+  container_col_33_33_33 {
+    templateName = ContainerCol333333
+    templateRootPaths {
+      10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
     }
+
+    dataProcessing {
+      300 = B13\Container\DataProcessing\ContainerProcessor
+      300 {
+        colPos = 300
+        as = children_300
+      }
+
+      301 = B13\Container\DataProcessing\ContainerProcessor
+      301 {
+        colPos = 301
+        as = children_301
+      }
+
+      302 = B13\Container\DataProcessing\ContainerProcessor
+      302 {
+        colPos = 302
+        as = children_302
+      }
+    }
+  }
 
   container_col_50_50 < lib.contentElement
   container_col_50_50 {

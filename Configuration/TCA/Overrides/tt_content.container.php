@@ -1,4 +1,5 @@
 <?php
+defined('TYPO3') or die('Access denied.');
 
 use B13\Container\Tca\ContainerConfiguration;
 use B13\Container\Tca\Registry;
@@ -35,7 +36,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         )
         )
             // set an optional icon configuration
-            ->setIcon(SI::ICON_CONTENT_CONTAINER_COLUMNS_3)
+            ->setIcon('content-container-columns-3')
     );
     // container_col_33_33_33 end
 
@@ -63,7 +64,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         )
         )
             // set an optional icon configuration
-            ->setIcon(SI::ICON_CONTENT_CONTAINER_COLUMNS_2_LEFT)
+            ->setIcon('content-container-columns-2-left')
     );
     // container_col_66_33 end
 
@@ -91,7 +92,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         )
         )
             // set an optional icon configuration
-            ->setIcon(SI::ICON_CONTENT_CONTAINER_COLUMNS_2_RIGHT)
+            ->setIcon('content-container-columns-2-right')
     );
     // container_col_33_66 end
 
@@ -119,9 +120,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         )
         )
             // set an optional icon configuration
-            ->setIcon(SI::ICON_CONTENT_CONTAINER_COLUMNS_2)
+            ->setIcon('content-container-columns-2')
     );
     // container_col_50_50 end
-
-
 })();

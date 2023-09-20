@@ -1,7 +1,7 @@
-#---------------------------------
-## String replace libs to use un Fluid
-## ( Usage in fluid templates:
-## <f:cObject typoscriptObjectPath="lib.stringReplaceRegExp" data="{value:'string', search:'/RegExp/', replace:'string', useRegExp:'0'}" /> )
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# String replace lib to use un Fluid
+# Usage in fluid templates:
+# <f:cObject typoscriptObjectPath="lib.stringReplaceRegExp" data="{value:'string', search:'/RegExp/', replace:'string', useRegExp:'0'}" />
 
 lib.stringReplaceRegExp = TEXT
 lib.stringReplaceRegExp {

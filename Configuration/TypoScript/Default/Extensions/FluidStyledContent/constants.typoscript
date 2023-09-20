@@ -1,3 +1,6 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Fluid style content configuration
+
 styles {
   templates {
     templateRootPath = EXT:bravo_content_elements/Resources/Private/Extensions/FluidStyledContent/Templates/
