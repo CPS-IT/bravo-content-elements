@@ -12,7 +12,7 @@ lib.parseFunc_RTE {
         HTMLparser = 1
         HTMLparser {
           tags.h2.fixAttrib.class {
-            default = u-typo:xl u-typo:bold
+            default = u-typo:xxl u-typo:bold
             always = 1
             allowedAttribs = class
           }
@@ -29,7 +29,7 @@ lib.parseFunc_RTE {
         HTMLparser = 1
         HTMLparser {
           tags.h3.fixAttrib.class {
-            default = u-typo:l u-typo:bold
+            default = u-typo:xl u-typo:bold
             always = 1
             allowedAttribs = class
           }
@@ -46,7 +46,7 @@ lib.parseFunc_RTE {
         HTMLparser = 1
         HTMLparser {
           tags.h4.fixAttrib.class {
-            default = u-typo:m u-typo:bold
+            default = u-typo:l u-typo:bold
             always = 1
             allowedAttribs = class
           }
