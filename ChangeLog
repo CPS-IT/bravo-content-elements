@@ -1,3 +1,8 @@
+2023-09-22         [RELEASE] Release of bravo-content-elements 0.2.0 (Vladimir Falcon)
+2023-09-22 f6a8069 Feature add templates for upload content element (Vladimir Falcon)
+2023-09-20 0decd45 46554 fix wrong default classes (Markus Dübbert)
+2023-09-19 45f01b2 44442 textmedia image fix zoom class (Markus Dübbert)
+
 2023-09-19         [RELEASE] Release of bravo-content-elements 0.1.1 (Vladimir Falcon)
 2023-09-19 a149898 Removed unused typoscript file (Vladimir Falcon)
 
