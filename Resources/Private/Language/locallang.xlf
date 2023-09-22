@@ -27,6 +27,12 @@
 			<trans-unit id="cookiebot.video.2" approved="yes">
 				<source>, for accepting the cookies and show the content!</source>
 			</trans-unit>
+			<trans-unit id="label.accessible" approved="yes">
+				<source>barrier-free</source>
+			</trans-unit>
+			<trans-unit id="label.not_accessible" approved="yes">
+				<source>not barrier-free</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

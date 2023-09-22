@@ -37,6 +37,14 @@
 				<source>, for accepting the cookies and show the content!</source>
 				<target>, um die Cookies zu akzeptieren und den Inhalt anzuzeigen!</target>
 			</trans-unit>
+			<trans-unit id="label.accessible" approved="yes">
+				<source>barrier-free</source>
+				<target>barrierefrei</target>
+			</trans-unit>
+			<trans-unit id="label.not_accessible" approved="yes">
+				<source>not barrier-free</source>
+				<target>nicht barrierefrei</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

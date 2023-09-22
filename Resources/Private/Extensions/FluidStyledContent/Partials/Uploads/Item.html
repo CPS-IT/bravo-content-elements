@@ -1,0 +1,41 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:section name="Main">
+    <li class="c-download-list__item">
+        <a href="{f:if(condition: file.publicUrl, then: '{file.publicUrl}', else: '{file.originalResource.publicUrl}')}"
+           class="c-link u-icon u-icon:left" download><span class="u-typo:bold">
+            <f:if condition="{file.properties.title} || {file.originalResource.properties.title}">
+                <f:then>
+                    <f:format.htmlspecialchars
+                        value="{f:if(
+                                condition: file.properties.title,
+                                then: '{file.properties.title}',
+                                else: '{file.originalResource.properties.title}')}"/>
+                </f:then>
+                <f:else>
+                    <f:format.htmlspecialchars
+                        value="{f:if(
+                                condition: file.name,
+                                then: '{file.name}',
+                                else: '{file.originalResource.name}')}"/>
+                </f:else>
+            </f:if></span>
+            <f:spaceless>
+                (
+                <f:if condition="{file.properties.size}">
+                    <f:then>{file.properties.size -> f:format.bytes()}</f:then>
+                    <f:else>{file.originalResource.properties.size -> f:format.bytes()}</f:else>
+                </f:if>
+                <f:if condition="{file.extension}">
+                    <f:then>, {file.extension -> f:format.case()}</f:then>
+                    <f:else>, {file.originalResource.extension -> f:format.case()}</f:else>
+                </f:if>
+                <f:if condition="{file.properties.accessibility} || {file.originalResource.properties.accessibility}">
+                    <f:then>, {f:translate(extensionName: 'BravoContentElements', key: 'label.accessible')}</f:then>
+                    <f:else>, {f:translate(extensionName: 'BravoContentElements', key: 'label.not_accessible')}</f:else>
+                </f:if>
+                )
+            </f:spaceless>
+            <i class="o-icon-font o-icon-font--download" aria-hidden="true"></i>
+        </a>
+    </li>
+</f:section>
