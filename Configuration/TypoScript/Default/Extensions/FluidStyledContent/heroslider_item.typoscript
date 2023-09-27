@@ -3,9 +3,9 @@
 #
 # CType: hero_slider
 
-tt_content.hero_slider =< lib.contentElement
-tt_content.hero_slider {
-    templateName = HeroSlider
+tt_content.heroslider_item =< lib.contentElement
+tt_content.heroslider_item {
+    templateName = HeroSliderItem
     dataProcessing {
         30 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
         30 {

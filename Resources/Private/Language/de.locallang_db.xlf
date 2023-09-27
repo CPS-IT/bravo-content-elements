@@ -11,15 +11,15 @@
 				<source>Video preview image (min Size 840x560 px)</source>
 				<target>Video-Vorschaubild (min Größe 840x560 px)</target>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider">
-				<source>Hero slider</source>
-				<target>Hero slider</target>
+			<trans-unit id="tt_content.CType.heroslider_item">
+				<source>Hero slider item</source>
+				<target>Hero Slider Element</target>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider_description">
+			<trans-unit id="tt_content.CType.heroslider_item_description">
 				<source>A hero slider element for a hero slider container</source>
 				<target>Ein Hero Slider Element für den Hero Slider Container</target>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider.image">
+			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>
 				<target>Bild</target>
 			</trans-unit>

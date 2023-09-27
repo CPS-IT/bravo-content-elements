@@ -9,13 +9,13 @@
 			<trans-unit id="tt_content.video.preview.image">
 				<source>Video preview image (min Size 840x560 px)</source>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider">
-				<source>Hero slider</source>
+			<trans-unit id="tt_content.CType.heroslider_item">
+				<source>Hero slider item</source>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider_description">
+			<trans-unit id="tt_content.CType.heroslider_item_description">
 				<source>A hero slider element for a hero slider container</source>
 			</trans-unit>
-			<trans-unit id="tt_content.CType.hero_slider.image">
+			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>
 			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">

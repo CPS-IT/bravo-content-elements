@@ -137,7 +137,8 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
                 [
                     [
                         'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.middle',
-                        'colPos' => 300
+                        'colPos' => 300,
+                        'allowed' => ['CType' => 'heroslider_item']
                     ]
                 ]
             ] // grid configuration
