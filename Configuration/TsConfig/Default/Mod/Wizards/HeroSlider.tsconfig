@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        hero_slider {
+            iconIdentifier = content-image
+            title = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.hero_slider
+            description = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.hero_slider_description
+            tt_content_defValues {
+                CType = hero_slider
+            }
+        }
+    }
+    show := addToList(hero_slider)
+}

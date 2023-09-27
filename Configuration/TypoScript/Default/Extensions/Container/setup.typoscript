@@ -64,6 +64,9 @@ tt_content {
   container_heroslider < lib.contentElement
   container_heroslider {
     templateName = ContainerHeroslider
+    templateRootPaths {
+      10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
+    }
 
     dataProcessing {
       300 = B13\Container\DataProcessing\ContainerProcessor

@@ -144,7 +144,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
         )
         )
             // set an optional icon configuration
-            ->setIcon('content-container-columns-2')
+            ->setIcon('content-container-columns-1')
     );
     // container_heroslider end
 })();

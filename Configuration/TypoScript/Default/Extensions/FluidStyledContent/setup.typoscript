@@ -4,6 +4,7 @@
 
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/contentElement.typoscript'
 @import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/textmedia.typoscript'
+@import 'EXT:bravo_content_elements/Configuration/TypoScript/Default/Extensions/FluidStyledContent/hero_slider.typoscript'
 
 
 
