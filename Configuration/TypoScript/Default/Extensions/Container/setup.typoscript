@@ -61,4 +61,18 @@ tt_content {
     templateName = ContainerCol3366
   }
 
+  container_heroslider < lib.contentElement
+  container_heroslider {
+    templateName = ContainerHeroslider
+
+    dataProcessing {
+      300 = B13\Container\DataProcessing\ContainerProcessor
+      300 {
+        colPos = 300
+        as = children_300
+      }
+
+    }
+  }
+
 }

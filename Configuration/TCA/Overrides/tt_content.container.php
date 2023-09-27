@@ -123,4 +123,28 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
             ->setIcon('content-container-columns-2')
     );
     // container_col_50_50 end
+
+    // container_heroslider begin
+    GeneralUtility::makeInstance(Registry::class)->configureContainer(
+        (
+        new ContainerConfiguration(
+            'container_heroslider', // CType
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_heroslider.title',
+            // label
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:ctype.container_heroslider.description',
+            // description
+            [
+                [
+                    [
+                        'name' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_be.xlf:container.content.middle',
+                        'colPos' => 300
+                    ]
+                ]
+            ] // grid configuration
+        )
+        )
+            // set an optional icon configuration
+            ->setIcon('content-container-columns-2')
+    );
+    // container_heroslider end
 })();

@@ -27,6 +27,12 @@
 			<trans-unit id="ctype.container_col_50_50.description">
 				<source>Container for two columns 50/50</source>
 			</trans-unit>
+			<trans-unit id="ctype.container_heroslider.description">
+				<source>Container for heroslider</source>
+			</trans-unit>
+			<trans-unit id="ctype.container_heroslider.title">
+				<source>Container heroslider</source>
+			</trans-unit>
 			<trans-unit id="container.content.left">
 				<source>Left column</source>
 			</trans-unit>
