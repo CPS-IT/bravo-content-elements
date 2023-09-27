@@ -16,8 +16,8 @@
 				<target>Hero Slider Element</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item_description">
-				<source>A hero slider element for a hero slider container</source>
-				<target>Ein Hero Slider Element für den Hero Slider Container</target>
+				<source>A hero slider element</source>
+				<target>Ein Hero Slider Element</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>

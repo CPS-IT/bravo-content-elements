@@ -13,7 +13,7 @@
 				<source>Hero slider item</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item_description">
-				<source>A hero slider element for a hero slider container</source>
+				<source>A hero slider element</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>
