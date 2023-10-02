@@ -18,6 +18,12 @@
 			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>
 			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser">
+				<source>Teaser</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_description">
+				<source>Adds a teaser to the website</source>
+			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
 				<source>Teaser link</source>
 			</trans-unit>

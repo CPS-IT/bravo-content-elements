@@ -1,0 +1,24 @@
+# Teaser:
+# This element is a teaser with card layout.
+#
+# CType: teaser
+
+tt_content.teaser =< lib.contentElement
+tt_content.teaser {
+  templateName = Teaser
+  dataProcessing {
+    30 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    30 {
+      references {
+        fieldName = image
+      }
+      as = image
+    }
+  }
+  stdWrap {
+    editIcons = tt_content: header [header_layout], records
+    editIcons {
+      iconTitle.data = LLL:EXT:fluid_styled_content/Resources/Private/Language/FrontendEditing.xlf:editIcon.shortcut
+    }
+  }
+}

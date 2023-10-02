@@ -23,6 +23,14 @@
 				<source>Image</source>
 				<target>Bild</target>
 			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser">
+				<source>CTA teaser</source>
+				<target>CTA Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser_description">
+				<source>Adds a CTA teaser to the website</source>
+				<target>Fügt einen CTA Teaser hinzu</target>
+			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
 				<source>Teaser link</source>
 				<target>Teaser Link</target>

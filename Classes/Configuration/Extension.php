@@ -242,4 +242,33 @@ final class Extension
         ];
     }
 
+    /**
+     * @return array[]
+     */
+    public static function getTeaserCropVariants(): array
+    {
+        return [
+            'mobile' => [
+                'title' => 'Mobile',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ]
+                ]
+            ],
+            'tablet' => [
+                'title' => 'Tablet',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ]
+                ]
+            ],
+        ];
+    }
+
 }
