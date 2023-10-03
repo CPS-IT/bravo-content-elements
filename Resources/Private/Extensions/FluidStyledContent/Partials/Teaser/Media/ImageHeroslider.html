@@ -22,14 +22,8 @@
                 >
             </picture>
             <f:if condition="{file.properties.copyright} || {file.originalResource.properties.copyright}">
-                <div class="c-copyright-wrapper">
-                    <div class="c-copyright-trigger" aria-hidden="true">
-                        <span class="c-copyright-trigger__text">© </span>
-                    </div>
-                    <div class="c-copyright">
-                        <span class="c-copyright__text">&copy; {f:if(condition: file.properties.copyright, then: '{file.properties.copyright}', else: '{file.originalResource.properties.copyright}')}</span>
-                    </div>
-                </div>
+                <f:render partial="Media/Rendering/Copyright"
+                          arguments="{file: file}" section="Main"/>
             </f:if>
         </div>
     </figure>

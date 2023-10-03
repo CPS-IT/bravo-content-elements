@@ -7,12 +7,19 @@ tt_content.teaser =< lib.contentElement
 tt_content.teaser {
   templateName = Teaser
   dataProcessing {
-    30 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-    30 {
+    10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    10 {
+      references {
+        fieldName = assets
+      }
+      as = assets
+    }
+    20 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    20 {
       references {
         fieldName = image
       }
-      as = image
+      as = previewImage
     }
   }
   stdWrap {

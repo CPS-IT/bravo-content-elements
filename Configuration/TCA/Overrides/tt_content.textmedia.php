@@ -31,7 +31,7 @@ $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['assets'
     ]
 ];
 $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['image'] = [
-    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.video.preview.image',
+    'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.textmedia.video.preview.image',
     'config' => [
         'maxitems' => 1,
         'overrideChildTca' => [

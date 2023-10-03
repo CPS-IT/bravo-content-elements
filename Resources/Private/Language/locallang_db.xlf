@@ -4,10 +4,16 @@
 		  original="EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf">
 		<body>
 			<trans-unit id="tt_content.CType.textmedia.assets">
-				<source>Media elements (min Size 840x560 px)</source>
+				<source>Media elements (min Size: 640x360 px float, 1280x720 px full width)</source>
 			</trans-unit>
-			<trans-unit id="tt_content.video.preview.image">
-				<source>Video preview image (min Size 840x560 px)</source>
+			<trans-unit id="tt_content.CType.textmedia.video.preview.image">
+				<source>Video preview image (min Size: 640x360 px float, 1280x720 px full width)</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.assets">
+				<source>Media elements (min Size: 640x360 px)</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.video.preview.image">
+				<source>Video preview image (min Size: 640x360 px float)</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item">
 				<source>Hero slider item</source>
