@@ -19,6 +19,7 @@ $GLOBALS['TCA']['tt_content']['types']['textmedia']['columnsOverrides']['assets'
     'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.textmedia.assets',
     'config' => [
         'maxitems' => 1,
+        'allowed' => 'gif,jpg,jpeg,bmp,png,pdf,svg,ai,youtube,vimeo',
         'overrideChildTca' => [
             'columns' => [
                 'crop' => [
