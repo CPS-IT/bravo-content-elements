@@ -91,4 +91,6 @@
         ],
     ];
 
+    $GLOBALS['TCA'][$table]['types']['teaser']['previewRenderer' ] = \TYPO3\CMS\Frontend\Preview\TextmediaPreviewRenderer::class;
+
 })();
