@@ -3,10 +3,14 @@
     <div class="c-media__content">
         <f:if condition="{previewImage}">
             <f:then>
-                <div class="c-media__image">
-                    <f:render partial="Teaser/Media/Rendering/Image"
-                          arguments="{file: previewImage,data: data}"/>
-                </div>
+                <figure class="c-figure">
+                    <div class="c-figure__inner">
+                        <div class="c-media__image">
+                            <f:render partial="Teaser/Media/Rendering/Image"
+                                  arguments="{file: previewImage,data: data}"/>
+                        </div>
+                    </div>
+                </figure>
             </f:then>
         </f:if>
         <f:if condition="{file.properties.extension} == 'youtube' || {file.properties.extension} == 'vimeo'">
