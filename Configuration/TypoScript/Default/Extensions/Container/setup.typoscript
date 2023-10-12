@@ -61,9 +61,9 @@ tt_content {
     templateName = ContainerCol3366
   }
 
-  container_heroslider < lib.contentElement
-  container_heroslider {
-    templateName = ContainerHeroslider
+  container_col_100 < lib.contentElement
+  container_col_100 {
+    templateName = ContainerCol100
     templateRootPaths {
       10 = EXT:bravo_content_elements/Resources/Private/Extensions/Container/Templates
     }
@@ -77,5 +77,10 @@ tt_content {
 
     }
   }
+
+  container_heroslider < tt_content.container_col_100
+  container_heroslider {
+    templateName = ContainerHeroslider
+    }
 
 }
