@@ -15,6 +15,9 @@
 			<trans-unit id="tt_content.CType.teaser.video.preview.image">
 				<source>Video preview image (min Size: 640x360 px float)</source>
 			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.image">
+				<source>Image (min Size: 640x360 px)</source>
+			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item">
 				<source>Hero slider item</source>
 			</trans-unit>
@@ -29,6 +32,12 @@
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_description">
 				<source>Adds a teaser to the website</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple">
+				<source>Teaser simple</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple_description">
+				<source>Adds a simple teaser to the website</source>
 			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
 				<source>Teaser link</source>

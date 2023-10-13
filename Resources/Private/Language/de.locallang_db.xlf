@@ -19,6 +19,10 @@
 				<source>Video preview image (min Size: 640x360 px)</source>
 				<target>Video-Vorschaubild (min Größe: 640x360 px)</target>
 			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.image">
+				<source>Image (min Size: 640x360 px)</source>
+				<target>Bild (min Größe: 640x360 px)</target>
+			</trans-unit>
 			<trans-unit id="tt_content.CType.heroslider_item">
 				<source>Hero slider item</source>
 				<target>Hero Slider Element</target>
@@ -38,6 +42,14 @@
 			<trans-unit id="tt_content.CType.cta_teaser_description">
 				<source>Adds a CTA teaser to the website</source>
 				<target>Fügt einen CTA Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple">
+				<source>Teaser simple</source>
+				<target>Teaser einfach</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple_description">
+				<source>Adds a simple teaser to the website</source>
+				<target>Fügt einen einfachen Teaser hinzu</target>
 			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
 				<source>Teaser link</source>

@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.teaser {
+  elements {
+    teaser_simple {
+      iconIdentifier = content-text-teaser
+      title = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser_simple
+      description = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser_simple_description
+      tt_content_defValues {
+        CType = teaser_simple
+      }
+    }
+  }
+  show := addToList(teaser_simple)
+}

@@ -10,23 +10,23 @@
         $table,
         'CType',
         [
-            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser',
-            'teaser',
+            'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser_simple',
+            'teaser_simple',
             'content-text-teaser',
-            'teaser',
+            'teaser_simple',
         ],
         'textmedia',
         'after'
     );
 
-    $GLOBALS['TCA'][$table]['ctrl']['typeicon_classes']['teaser'] = 'content-text-teaser';
+    $GLOBALS['TCA'][$table]['ctrl']['typeicon_classes']['teaser_simple'] = 'content-text-teaser';
 
-    $GLOBALS['TCA'][$table]['types']['teaser']['showitem'] = '
+    $GLOBALS['TCA'][$table]['types']['teaser_simple']['showitem'] = '
     --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
     --palette--;;general,header,
     bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext_formlabel,
     --palette--;;teaser_link,
-    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.media, assets, image,
+    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.media, image,
      --palette--;;mediaAdjustments,
     --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
         --palette--;;frames,
@@ -43,25 +43,10 @@
     --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,';
 
 
-    $GLOBALS['TCA'][$table]['types']['teaser']['columnsOverrides'] = [
-        'assets' => [
-            'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser.assets',
-            'config' => [
-                'minitems' => 0,
-                'maxitems' => 1,
-                'overrideChildTca' => [
-                    'columns' => [
-                        'crop' => [
-                            'config' => [
-                                'cropVariants' => \Cpsit\BravoContentElements\Configuration\Extension::getTeaserCropVariants()
-                            ],
-                        ],
-                    ],
-                ],
-            ],
-        ],
+    $GLOBALS['TCA'][$table]['types']['teaser_simple']['columnsOverrides'] = [
+
         'image' => [
-            'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser.video.preview.image',
+            'label' => 'LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.teaser.image',
             'config' => [
                 'minitems' => 0,
                 'maxitems' => 1,
