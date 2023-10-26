@@ -2,7 +2,7 @@
 <f:layout name="PageComponent"/>
 <f:section name="Main">
     <div id="c{data.uid}"
-         class="c-link-list-wrapper u-space-top:default">
+         class="c-link-list u-space-top:default">
         <f:if condition="{data._LOCALIZED_UID}">
             <a id="c{data._LOCALIZED_UID}"></a>
         </f:if>
@@ -10,7 +10,7 @@
             <f:render partial="Header/All" arguments="{_all}"/>
         </f:render>
         <f:if condition="{menu}">
-            <ul class="c-link-list">
+            <ul class="c-link-list__list">
                 <f:for each="{menu}" as="page">
                     <li class="c-link-list__item">
                         <a href="{page.link}" {f:if(condition: page.target, then: ' target="{page.target}"')}
