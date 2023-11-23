@@ -35,6 +35,22 @@
 				<source>Container for two columns 50/50</source>
 				<target>Container für Inhalt über zwei Spalten 50/50</target>
 			</trans-unit>
+			<trans-unit id="ctype.container_col_100.title">
+				<source>Container 100</source>
+				<target>Container 100</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_col_100.description">
+				<source>Container for two columns 100</source>
+				<target>Container für Inhalt über eine Spalte 100</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_heroslider.description">
+				<source>Container for heroslider</source>
+				<target>Container für einen Heroslider</target>
+			</trans-unit>
+			<trans-unit id="ctype.container_heroslider.title">
+				<source>Container heroslider</source>
+				<target>Container Heroslider</target>
+			</trans-unit>
 			<trans-unit id="container.content.left">
 				<source>Left column</source>
 				<target>Linke Spalte</target>

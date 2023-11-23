@@ -4,12 +4,68 @@
 		  original="EXT:bravo_content_elements/Resources/Private/Language/de.locallang_db.xlf">
 		<body>
 			<trans-unit id="tt_content.CType.textmedia.assets">
-				<source>Media elements (min Size 840x560 px)</source>
-				<target>Medienelemente (min Größe 840x560 px)</target>
+				<source>Media elements (min Size: 640x360 px float, 1280x720 px full width)</source>
+				<target>Medienelemente (min Größe: 640x360 px float, 1280x720 px full width)</target>
 			</trans-unit>
-			<trans-unit id="tt_content.video.preview.image">
-				<source>Video preview image (min Size 840x560 px)</source>
-				<target>Video-Vorschaubild (min Größe 840x560 px)</target>
+			<trans-unit id="tt_content.CType.textmedia.video.preview.image">
+				<source>Video preview image (min Size: 640x360 px float, 1280x720 px full width)</source>
+				<target>Video-Vorschaubild (min Größe: 640x360 px float, 1280x720 px full width)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.assets">
+				<source>Media elements (min Size: 640x360 px)</source>
+				<target>Medienelemente (min Größe: 640x360 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.video.preview.image">
+				<source>Video preview image (min Size: 640x360 px)</source>
+				<target>Video-Vorschaubild (min Größe: 640x360 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser.image">
+				<source>Image (min Size: 640x360 px)</source>
+				<target>Bild (min Größe: 640x360 px)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.heroslider_item">
+				<source>Hero slider item</source>
+				<target>Hero Slider Element</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.heroslider_item_description">
+				<source>A hero slider element</source>
+				<target>Ein Hero Slider Element</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.heroslider_item.image">
+				<source>Image</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser">
+				<source>CTA teaser</source>
+				<target>CTA Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser_description">
+				<source>Adds a CTA teaser to the website</source>
+				<target>Fügt einen CTA Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple">
+				<source>Teaser simple</source>
+				<target>Teaser einfach</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_simple_description">
+				<source>Adds a simple teaser to the website</source>
+				<target>Fügt einen einfachen Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link">
+				<source>Teaser link</source>
+				<target>Teaser Link</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link_label">
+				<source>Teaser link label</source>
+				<target>Teaser Linkbezeichnung</target>
+			</trans-unit>
+			<trans-unit id="tt_content.teaser_link_palette">
+				<source>Button</source>
+				<target>Button</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.accessibility">
+				<source>barrier-free</source>
+				<target>barrierefrei</target>
 			</trans-unit>
 		</body>
 	</file>

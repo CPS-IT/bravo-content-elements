@@ -11,13 +11,9 @@
         </f:render>
         <f:if condition="{files}">
             <ul class="c-download-list__list">
-                <li class="c-download-list__item">
                 <f:for each="{files}" as="file" iteration="fileIterator">
-                    <li class="c-download-list__item">
                     <f:render partial="Uploads/Item" section="Main" arguments="{file:file}"/>
-                    </li>
                 </f:for>
-                </li>
             </ul>
         </f:if>
     </div>

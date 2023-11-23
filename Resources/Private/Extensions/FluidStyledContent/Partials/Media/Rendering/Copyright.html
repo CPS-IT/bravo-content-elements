@@ -1,0 +1,14 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:fr="http://typo3.org/ns/Cpsit/CpsUtility/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:section name="Main">
+<div class="c-copyright-wrapper">
+    <div class="c-copyright-trigger" aria-hidden="true">
+        <span class="c-copyright-trigger__text">© </span>
+    </div>
+    <div class="c-copyright">
+        <span class="c-copyright__text">&copy; {f:if(condition: file.properties.copyright, then: '{file.properties.copyright}', else: '{file.originalResource.properties.copyright}')}</span>
+    </div>
+</div>
+</f:section>
+</html>

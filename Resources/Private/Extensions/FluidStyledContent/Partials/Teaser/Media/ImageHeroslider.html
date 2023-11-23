@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:fr="http://typo3.org/ns/Fr/GebaeudeforumSitePackage/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:section name="Main">
+    <figure class="c-figure">
+        <div class="c-figure__inner">
+            <picture>
+                <source media="(min-width: 1300px)"
+                        srcset="{f:uri.image(image: file, maxWidth: '1600', cropVariant: 'desktopxl')}">
+                <source media="(min-width: 1100px)"
+                        srcset="{f:uri.image(image: file, maxWidth: '1300', cropVariant: 'desktopl')}">
+                <source media="(min-width: 700px)"
+                        srcset="{f:uri.image(image: file, maxWidth: '1100', cropVariant: 'desktop')}">
+                <source media="(min-width: 500px)"
+                        srcset="{f:uri.image(image: file, maxWidth: '700', cropVariant: 'tablet')}">
+                <source srcset="{f:uri.image(image: file, maxWidth: '500', cropVariant: 'mobile')}">
+                <img class="c-img"
+                     src="{f:uri.image(image: file, maxWidth: '500', cropVariant: 'mobile')}"
+                     alt="{f:if(condition: file.alternative, then: '{file.alternative}', else: '{file.originalResource.alternative}')}"
+                     width="500"
+                     height="250"
+                >
+            </picture>
+            <f:if condition="{file.properties.copyright} || {file.originalResource.properties.copyright}">
+                <f:render partial="Media/Rendering/Copyright"
+                          arguments="{file: file}" section="Main"/>
+            </f:if>
+        </div>
+    </figure>
+</f:section>
+</html>

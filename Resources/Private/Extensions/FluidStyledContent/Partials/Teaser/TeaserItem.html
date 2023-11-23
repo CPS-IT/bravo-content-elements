@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:section name="Main">
+    <f:render partial="Teaser/Media/Type"
+              arguments="{
+                  file: assets.0,
+                  data: data,
+                  previewImage: previewImage.0
+                }"/>
+    <div class="c-teaser__content">
+        <h3 class="c-teaser__headline">
+            {data.header}
+        </h3>
+        <f:if condition="{data.bodytext}">
+            <f:format.html>{data.bodytext}</f:format.html>
+        </f:if>
+        <f:if condition="{data.teaser_link} && {data.teaser_link_label}">
+            <div class="c-teaser__link">
+                <f:link.typolink parameter="{data.teaser_link}"
+                                 class="c-link c-link--fancy u-icon u-icon:left">
+                    <f:if condition="{data.teaser_link_label}">
+                        <f:then>
+                            {data.teaser_link_label}
+                        </f:then>
+                        <f:else>
+                            {f:translate(key:'{languageFilePath}more.information')}
+                        </f:else>
+                    </f:if>
+                    <i class="o-icon-font o-icon-font--arrow2-right" aria-hidden="true"></i>
+                </f:link.typolink>
+            </div>
+        </f:if>
+    </div>
+</f:section>
+</html>

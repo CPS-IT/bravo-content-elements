@@ -64,6 +64,18 @@ TCEFORM {
       }
     }
 
+    # disable layout
+      # specific content types
+      layout {
+        disabled = 1
+      }
+
+    # disable frame_class
+      # specific content types
+      frame_class {
+        disabled = 1
+      }
+
     #----------------------------------------------
     # Enabled only needed image orientation options
     imageorient {

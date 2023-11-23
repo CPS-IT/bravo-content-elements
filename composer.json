@@ -6,7 +6,9 @@
   "type": "typo3-cms-extension",
   "require": {
     "typo3/cms-core": "^12.4",
-    "b13/container": "^2.2"
+    "b13/container": "^2.2",
+	"typo3/cms-filemetadata": "*",
+	"ichhabrecht/content-defender": ">3.4.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"

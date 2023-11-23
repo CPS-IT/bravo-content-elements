@@ -185,4 +185,90 @@ final class Extension
     {
         return self::get16x9CropVariants();
     }
+
+    public static function getHerosliderCropVariants(): array
+    {
+        return [
+            'mobile' => [
+                'title' => 'Mobile',
+                'selectedRatio' => '2:1',
+                'allowedAspectRatios' => [
+                    '2:1' => [
+                        'title' => '2:1',
+                        'value' => 2 / 1
+                    ],
+                ]
+            ],
+            'tablet' => [
+                'title' => 'Tablet',
+                'selectedRatio' => '2:1',
+                'allowedAspectRatios' => [
+                    '2:1' => [
+                        'title' => '2:1',
+                        'value' => 2 / 1
+                    ],
+                ]
+            ],
+            'desktop' => [
+                'title' => 'Desktop',
+                'selectedRatio' => '2:1',
+                'allowedAspectRatios' => [
+                    '2:1' => [
+                        'title' => '2:1',
+                        'value' => 2 / 1
+                    ],
+                ]
+            ],
+            'desktopl' => [
+                'title' => 'Desktop large',
+                'selectedRatio' => '2:1',
+                'allowedAspectRatios' => [
+                    '2:1' => [
+                        'title' => '2:1',
+                        'value' => 2 / 1
+                    ],
+                ]
+            ],
+            'desktopxl' => [
+                'title' => 'Desktop extralarge',
+                'selectedRatio' => '2:1',
+                'allowedAspectRatios' => [
+                    '2:1' => [
+                        'title' => '2:1',
+                        'value' => 2 / 1
+                    ],
+                ]
+            ],
+        ];
+    }
+
+    /**
+     * @return array[]
+     */
+    public static function getTeaserCropVariants(): array
+    {
+        return [
+            'mobile' => [
+                'title' => 'Mobile',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ]
+                ]
+            ],
+            'tablet' => [
+                'title' => 'Tablet',
+                'selectedRatio' => '16:9',
+                'allowedAspectRatios' => [
+                    '16:9' => [
+                        'title' => '16:9',
+                        'value' => 16 / 9
+                    ]
+                ]
+            ],
+        ];
+    }
+
 }

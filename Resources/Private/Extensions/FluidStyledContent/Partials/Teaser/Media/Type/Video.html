@@ -1,0 +1,46 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="c-media js-media">
+    <div class="c-media__content">
+        <f:if condition="{previewImage}">
+            <f:then>
+                <figure class="c-figure">
+                    <div class="c-figure__inner">
+                        <div class="c-media__image">
+                            <f:render partial="Teaser/Media/Rendering/Image"
+                                  arguments="{file: previewImage,data: data}"/>
+                        </div>
+                    </div>
+                </figure>
+            </f:then>
+        </f:if>
+        <f:if condition="{file.properties.extension} == 'youtube' || {file.properties.extension} == 'vimeo'">
+            <f:then>
+                <button class="c-button js-media-trigger cookieconsent-optin-marketing" type="button"
+                        id="video-{data.pid}-{data.uid}-{file.uid}">
+                    <span class="u-accessibility">{f:translate(extensionName: 'BravoContentElements', key: 'load.video.button')}</span>
+                    <i class="o-icon-font o-icon-font--play" aria-hidden="true"></i>
+                </button>
+                <div class="c-media__text cookieconsent-optout-marketing">
+                    <p>
+                        {f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.0')}
+                        <a href="javascript:Cookiebot.renew()">{f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.1')}</a>
+                        {f:translate(extensionName: 'BravoContentElements', key: 'cookiebot.video.2')}
+                    </p>
+                </div>
+            </f:then>
+            <f:else>
+                <button class="c-media__button" type="button" id="video-{data.uid}-{file.uid}">
+                    <span class="u-accessibility">{f:translate(extensionName: 'BravoContentElements', key: 'load.video.button')}</span>
+                    <span class="c-button-icon-only c-button--main" aria-hidden="true">
+                <i class="o-icon-font o-icon-font--arrow-right" aria-hidden="true"></i>
+            </span>
+                </button>
+            </f:else>
+        </f:if>
+    </div>
+    <div class="c-iframe-video">
+        <f:render partial="Media/Rendering/Video"
+                  arguments="{file: file, dimensions: dimensions, settings: settings}"/>
+    </div>
+</div>
+</html>

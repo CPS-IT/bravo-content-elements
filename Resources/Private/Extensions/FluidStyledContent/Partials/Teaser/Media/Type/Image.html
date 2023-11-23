@@ -1,0 +1,18 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="c-teaser__image">
+    <figure class="c-figure">
+        <div class="c-figure__inner">
+            <f:if condition="{file}">
+                <f:then>
+                    <f:render partial="Teaser/Media/Rendering/Image"
+                              arguments="{file: file,data: data}"/>
+                </f:then>
+            </f:if>
+            <f:if condition="{file.properties.copyright}">
+                <f:render partial="Media/Rendering/Copyright"
+                          arguments="{file: file}" section="Main"/>
+            </f:if>
+        </div>
+    </figure>
+</div>
+</html>
