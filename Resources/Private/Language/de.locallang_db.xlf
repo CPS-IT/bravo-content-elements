@@ -63,6 +63,10 @@
 				<source>Button</source>
 				<target>Button</target>
 			</trans-unit>
+			<trans-unit id="sys_file_metadata.accessibility">
+				<source>barrier-free</source>
+				<target>barrierefrei</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
