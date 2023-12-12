@@ -12,14 +12,21 @@ editor:
     contentsCss:
       - "EXT:bravo_content_elements/Resources/Public/CKeditor/css/minimal.css"
 
-    defaultContentLanguage: "de"
-    defaultLanguage: "de"
+    ContentLanguage: "de"
 
-    extraAllowedContent: ''
-    format_tags: "p;h3;h4;pre"
-    toolbarGroups:
-      - { name: links, groups: [ links ] }
-      - { name: styles, groups: [ styles ] }
-      - { name: basicstyles, groups: [ basicstyles, cleanup] }
-      - { name: clipboard, groups: [clipboard, undo] }
-      - { name: paragraph, groups: [ list ] }
+    toolbar:
+      items:
+        - style
+        - heading
+        - link
+        # grouping separator
+        - '|'
+        - bold
+        - '|'
+        - clipboard
+        - removeFormat
+        - undo
+        - redo
+        - '|'
+        - sourceEditing
+
