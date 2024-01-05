@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+  elements {
+    image_gallery {
+      iconIdentifier = content-gallery
+      title = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.image_gallery
+      description = LLL:EXT:bravo_content_elements/Resources/Private/Language/locallang_db.xlf:tt_content.CType.image_gallery_description
+      tt_content_defValues {
+        CType = image_gallery
+      }
+    }
+  }
+  show := addToList(image_gallery)
+}

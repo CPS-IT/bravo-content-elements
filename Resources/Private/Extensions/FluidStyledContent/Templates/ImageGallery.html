@@ -1,0 +1,71 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="PageComponent"/>
+<f:section name="Main">
+    <f:if condition="{images}">
+        <div id="c{data.uid}"
+             class="c-gallery-slider u-space-top:default">
+            <f:render partial="Header/All" arguments="{_all}"/>
+            <div class="c-gallery-slider__slider js-gallery-slider">
+                <div class="c-gallery-slider__image">
+                    <f:for as="image" each="{images}">
+                        <f:render section="imageItem" arguments="{file:image}"></f:render>
+                    </f:for>
+                </div>
+                <div class="c-gallery-slider__thumbnail">
+                    <f:for as="image" each="{images}">
+                        <f:render section="imageThumbnailItem" arguments="{file:image}"></f:render>
+                    </f:for>
+                </div>
+            </div>
+        </div>
+    </f:if>
+</f:section>
+
+<f:section name="imageItem">
+    <figure class="c-figure">
+        <div class="c-figure__inner">
+            <picture>
+                <source
+                    media="(min-width: 370px)"
+                    srcset="{f:uri.image(image: file, maxWidth: '1100', cropVariant: 'default')}"
+                >
+                <source srcset="{f:uri.image(image: file, maxWidth: '500', cropVariant: 'default')}">
+                <img class="c-img"
+                     src="{f:uri.image(image: file, maxWidth: '500', cropVariant: 'default')}"
+                     alt="{f:if(condition: file.alternative, then: '{file.alternative}', else: '{file.originalResource.alternative}')}"
+                     width="500"
+                     height="250"
+                >
+            </picture>
+            <noscript>
+                <div class="c-img-wrapper-no-js">
+                    <img class="c-img c-img--no-js"
+                         src="{f:uri.image(image: file, maxWidth: '500', cropVariant: 'default')}"
+                         alt="{f:if(condition: file.alternative, then: '{file.alternative}', else: '{file.originalResource.alternative}')}"
+                         width="500"
+                         height="250"
+                    >
+                </div>
+            </noscript>
+            <f:if condition="{file.properties.copyright} || {file.originalResource.properties.copyright}">
+                <f:render partial="Media/Rendering/Copyright"
+                          arguments="{file: file}" section="Main"/>
+            </f:if>
+        </div>
+        <f:if condition="{file.description}">
+            <figcaption class="c-figure__figcaption">
+                <f:format.nl2br>{file.description}</f:format.nl2br>
+            </figcaption>
+        </f:if>
+    </figure>
+</f:section>
+
+<f:section name="imageThumbnailItem">
+    <img class="c-img"
+         src="{f:uri.image(image: file, maxWidth: '160', cropVariant: 'default')}"
+         alt="{image.alternative}"
+         width="160"
+         height="90"
+    >
+</f:section>
+</html>

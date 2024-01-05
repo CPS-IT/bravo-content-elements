@@ -13,7 +13,7 @@
 				<source>Media elements (min Size: 640x360 px)</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser.video.preview.image">
-				<source>Video preview image (min Size: 640x360 px float)</source>
+				<source>Video preview image (min Size: 640x360 px)</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser.image">
 				<source>Image (min Size: 640x360 px)</source>
@@ -27,17 +27,23 @@
 			<trans-unit id="tt_content.CType.heroslider_item.image">
 				<source>Image</source>
 			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser">
+				<source>CTA teaser</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.cta_teaser_description">
+				<source>Call to action teaser content element</source>
+			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser">
 				<source>Teaser</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_description">
-				<source>Adds a teaser to the website</source>
+				<source>Content teaser element</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_simple">
 				<source>Teaser simple</source>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_simple_description">
-				<source>Adds a simple teaser to the website</source>
+				<source>Simple teaser content element</source>
 			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
 				<source>Teaser link</source>
@@ -50,6 +56,15 @@
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.accessibility">
 				<source>barrier-free</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery">
+				<source>Image gallery</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery_description">
+				<source>Image gallery with thumbnails and slide function</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery.image_description">
+				<source>min. 2 images</source>
 			</trans-unit>
 		</body>
 	</file>
