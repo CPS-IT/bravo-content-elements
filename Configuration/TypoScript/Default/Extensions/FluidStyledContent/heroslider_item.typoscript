@@ -7,18 +7,12 @@ tt_content.heroslider_item =< lib.contentElement
 tt_content.heroslider_item {
     templateName = HeroSliderItem
     dataProcessing {
-        30 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        30 = files
         30 {
             references {
                 fieldName = image
             }
             as = hero_image
-        }
-    }
-    stdWrap {
-        editIcons = tt_content: header [header_layout], records
-        editIcons {
-            iconTitle.data = LLL:EXT:fluid_styled_content/Resources/Private/Language/FrontendEditing.xlf:editIcon.shortcut
         }
     }
 }

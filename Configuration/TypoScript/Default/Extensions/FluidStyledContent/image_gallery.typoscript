@@ -1,0 +1,24 @@
+#######################################
+# Image gallery:
+# Display a selection of images
+#
+# CType: image_gallery
+
+tt_content.image_gallery =< lib.contentElement
+tt_content.image_gallery {
+  templateName = ImageGallery
+  settings {
+    maxHeight = 160
+  }
+
+  dataProcessing {
+    10 = files
+    10 {
+      references {
+        fieldName = image
+      }
+
+      as = images
+    }
+  }
+}

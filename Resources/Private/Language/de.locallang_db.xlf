@@ -40,15 +40,23 @@
 				<target>CTA Teaser</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.cta_teaser_description">
-				<source>Adds a CTA teaser to the website</source>
+				<source>Call to action teaser content element</source>
 				<target>Fügt einen CTA Teaser hinzu</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser">
+				<source>Teaser</source>
+				<target>Teaser</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.teaser_description">
+				<source>Content teaser element</source>
+				<target>CTA Teaser inhalts element</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_simple">
 				<source>Teaser simple</source>
 				<target>Teaser einfach</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.teaser_simple_description">
-				<source>Adds a simple teaser to the website</source>
+				<source>Simple teaser content element</source>
 				<target>Fügt einen einfachen Teaser hinzu</target>
 			</trans-unit>
 			<trans-unit id="tt_content.teaser_link">
@@ -66,6 +74,18 @@
 			<trans-unit id="sys_file_metadata.accessibility">
 				<source>barrier-free</source>
 				<target>barrierefrei</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery">
+				<source>Image gallery</source>
+				<target>Bilder galerie</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery_description">
+				<source>Image gallery with thumbnails and slide function</source>
+				<target>Bildergalerie mit Thumbnails und Slide-Funktion</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.image_gallery.image_description">
+				<source>min. 2 images</source>
+				<target>min. 2 Bilder</target>
 			</trans-unit>
 		</body>
 	</file>
