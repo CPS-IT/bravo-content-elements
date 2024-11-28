@@ -11,8 +11,7 @@ lib.contentElement {
           youTube.srcAttribute = data-cookieblock-src
           vimeo.srcAttribute = data-cookieblock-src
         }
-        autoplay = 1
-        no-cookie = 0
+        no-cookie = 1
         data {
           cookieconsent = marketing
         }
