@@ -77,7 +77,7 @@
 			</trans-unit>
 			<trans-unit id="tt_content.CType.image_gallery">
 				<source>Image gallery</source>
-				<target>Bilder galerie</target>
+				<target>Bildergalerie</target>
 			</trans-unit>
 			<trans-unit id="tt_content.CType.image_gallery_description">
 				<source>Image gallery with thumbnails and slide function</source>
